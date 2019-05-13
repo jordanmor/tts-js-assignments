@@ -15,7 +15,7 @@ const player2 = new Player('Player2');
 const weaponOfChoice = () => weapons[parseInt(Math.random()*weapons.length) %3];
 
 const compareHands = (weapon1, weapon2) => {
-  const winningHand = weapon1 === 'paper' && weapon2 === 'rock' || weapon1 === 'scissors' && weapon2 === 'paper' || weapon1 === 'rock' && weapon2 === 'scissors';
+  let winningHand = weapon1 === 'paper' && weapon2 === 'rock' || weapon1 === 'scissors' && weapon2 === 'paper' || weapon1 === 'rock' && weapon2 === 'scissors';
   round++;
   if(weapon1 === weapon2) {
     return `Round ${round} is a Tie.`;
@@ -34,7 +34,7 @@ while(player1.numOfWins !== 3 && player2.numOfWins !== 3) {
   console.log(compareHands(player1.hand, player2.hand));
   if(player1.numOfWins === 3) {
     console.log('Player 1 Wins the Game!')
-  } else if (player1.numOfWins === 3) {
+  } else if (player2.numOfWins === 3) {
     console.log('Player 2 Wins the Game!')
   }
 }
