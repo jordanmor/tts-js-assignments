@@ -1,4 +1,3 @@
-# tts-js-challenge-01
 TTS JavaScript Challenge 1
 
 Create a game of 'Rock Paper Scissors' that runs until one player has three wins.  
