@@ -21,3 +21,27 @@ Output each players hand to the console
   - Nest objects inside of arrays and arrays inside of objects multiple levels deep. Ask yourself if some of the primatives you've created could be objects instead. 
   - Once you've composed your object, write some code to address it.
   - Push the completed code to our GitHub channel.
+
+## TTS JavaScript Challenge 3
+
+1. Define a hands array with the values 'rock', 'paper', and 'scissors';
+2. Define a function called getHand() that returns a hand from the array using parseInt(Math.random()*10)%3)
+3. Define two objects for two players. Each player has name and getHand() properties.
+4. Define a function called playRound() that
+    1. Takes two player objects as arguments
+    2. Gets hands from each
+    3. Determines the winner
+    4. Logs the hands played and name of the winner.
+    5. If its a tie, log the hands played and "it's a tie".
+    6. Returns the winner object (null if no winner)
+5. Define a function called playGame() that takes arguments player1, player2, and playUntil.
+    1. Play rounds until one of the players wins playUntil hands
+    2. When one player has won enough games, return the winning player object
+6. Play a game to 5 wins
+
+<strong>Bonus Questions</strong>  
+Define a function called playTournament():  
+Take 4 players and playUntil as arguments  
+Play a game between the first two players, and the second two players  
+Play a game between the winners of the first round.  
+Announce the tournament winner's name "\[name] is the world champion";  
