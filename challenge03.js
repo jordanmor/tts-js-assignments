@@ -1,8 +1,9 @@
-const hands = ['rock', 'paper', 'scissors'];
+// TTS JavaScript Challenge 3
 
 class Player {
   constructor(name) {
     this.name = name;
+    this.numOfWins = 0;
   }
   getHand() {
     const hands = ['rock', 'paper', 'scissors'];
@@ -13,6 +14,8 @@ class Player {
 const player1 = new Player('Player 1');
 const player2 = new Player('Player 2');
 
+// Determines winner & Returns the winner object (null if no winner)
+// Logs hands played. Also logs name of winner or declares tie
 function playRound(player1, player2) {
   const hand1 = player1.getHand();
   const hand2 = player2.getHand();
@@ -33,5 +36,22 @@ function playRound(player1, player2) {
   }
 }
 
-console.log(playRound(player1, player2));
+/* 
+  When one player has won # of games === playUntil, 
+  function returns the winning player object
+*/
+function playGame(player1, player2, playUntil) {
+  let winningPlayer;
+  while(playUntil > player1.numOfWins || playUntil > player2.numOfWins) {
+    winningPlayer = playRound(player1, player2);
+    if(winningPlayer !== null) {
+      winningPlayer.numOfWins++;
+      if(winningPlayer.numOfWins === 5) {
+        return winningPlayer;
+      }
+    }
+  }
+}
+
+console.log(playGame(player1, player2, 5)); // Example result: Player { name: 'Player 1', numOfWins: 5 }
 
