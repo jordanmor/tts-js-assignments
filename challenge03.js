@@ -11,8 +11,11 @@ class Player {
   }
 }
 
-const player1 = new Player('Player 1');
-const player2 = new Player('Player 2');
+const players = [];
+
+for(let i = 1; i <= 4; i++) {
+  players.push(new Player(`Player ${i}`))
+}
 
 // Determines winner & Returns the winner object (null if no winner)
 // Logs hands played. Also logs name of winner or declares tie
@@ -53,5 +56,16 @@ function playGame(player1, player2, playUntil) {
   }
 }
 
-console.log(playGame(player1, player2, 5)); // Example result: Player { name: 'Player 1', numOfWins: 5 }
+// console.log(playGame(player1, player2, 5)); // Example result: Player { name: 'Player 1', numOfWins: 5 }
 
+function playTournament(players, playUntil) {
+  const winningPlayer1 = playGame(players[0], players[1], playUntil);
+  const winningPlayer2 = playGame(players[2], players[3], playUntil);
+  winningPlayer1.numOfWins = 0;
+  winningPlayer2.numOfWins = 0;
+  return playGame(winningPlayer1, winningPlayer2, playUntil);
+}
+
+const champion = playTournament(players, 5);
+
+console.log(`${champion.name} is the world champion`);
