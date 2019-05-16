@@ -1,16 +1,15 @@
 ## TTS JavaScript Challenge 1
 
-Create a game of 'Rock Paper Scissors' that runs until one player has three wins.  
-Store the player names and number of wins for each player in variables.  
-Use a while loop to run the game until one player has 3 wins.  
-Use the given data below to randomly select an item.  
-
-Output each players hand to the console
- - Use an `if` or `switch` statement to determine a winner of the round
- - Output the round winner's name to the console
- - Create a way to track how many rounds each player has won
- - When one player wins 3 rounds, announce that player's name as the game winner
- - Push the code to your GitHub Repo
+1. Create a game of 'Rock Paper Scissors' that runs until one player has three wins.  
+2. Store the player names and number of wins for each player in variables.  
+3. Use a while loop to run the game until one player has 3 wins.  
+4. Use the given data below to randomly select an item.  
+5. Output each players hand to the console
+    - Use an `if` or `switch` statement to determine a winner of the round
+    - Output the round winner's name to the console
+    - Create a way to track how many rounds each player has won
+    - When one player wins 3 rounds, announce that player's name as the game winner
+    - Push the code to your GitHub Repo
 
 ## TTS JavaScript Challenge 2
 
@@ -28,15 +27,15 @@ Exercise 3
 2. Define a function called getHand() that returns a hand from the array using parseInt(Math.random()*10)%3)
 3. Define two objects for two players. Each player has name and getHand() properties.
 4. Define a function called playRound() that
-    1. Takes two player objects as arguments
-    2. Gets hands from each
-    3. Determines the winner
-    4. Logs the hands played and name of the winner.
-    5. If its a tie, log the hands played and "it's a tie".
-    6. Returns the winner object (null if no winner)
+    - Takes two player objects as arguments
+    - Gets hands from each
+    - Determines the winner
+    - Logs the hands played and name of the winner.
+    - If its a tie, log the hands played and "it's a tie".
+    - Returns the winner object (null if no winner)
 5. Define a function called playGame() that takes arguments player1, player2, and playUntil.
-    1. Play rounds until one of the players wins playUntil hands
-    2. When one player has won enough games, return the winning player object
+    - Play rounds until one of the players wins playUntil hands
+    - When one player has won enough games, return the winning player object
 6. Play a game to 5 wins
 
 <strong>Bonus Questions</strong>  
