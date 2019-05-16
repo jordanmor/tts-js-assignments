@@ -17,7 +17,7 @@ for(let i = 1; i <= 4; i++) {
   players.push(new Player(`Player ${i}`))
 }
 
-// Determines winner & Returns the winner object (null if no winner)
+// Determines winner & returns the winner object (null if no winner)
 // Logs hands played. Also logs name of winner or declares tie
 function playRound(player1, player2) {
   const hand1 = player1.getHand();
@@ -56,16 +56,18 @@ function playGame(player1, player2, playUntil) {
   }
 }
 
-// console.log(playGame(player1, player2, 5)); // Example result: Player { name: 'Player 1', numOfWins: 5 }
-
 function playTournament(players, playUntil) {
+  // first two players compete
   const winningPlayer1 = playGame(players[0], players[1], playUntil);
+  // second two players compete
   const winningPlayer2 = playGame(players[2], players[3], playUntil);
+  // Reset final two players numOfWins count
   winningPlayer1.numOfWins = 0;
   winningPlayer2.numOfWins = 0;
+  // last competition between the winners of the first round
   return playGame(winningPlayer1, winningPlayer2, playUntil);
 }
 
-const champion = playTournament(players, 5);
+const champion = playTournament(players, 5); // stores the final winner object
 
-console.log(`${champion.name} is the world champion`);
+console.log(`${champion.name} is the world champion!`); // Ex. Player 4 is the world champion!
