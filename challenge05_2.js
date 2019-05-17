@@ -31,7 +31,6 @@ const rbsWithMoreThanFiveTouchDowns = players
                                         .map(player => `${player.firstName} ${player.lastName}`);
 console.log(rbsWithMoreThanFiveTouchDowns); // ['Cam Newton', 'Jonathan Stewart', 'Mike Tolbert', 'Ted Ginn']
 
-// const numOfTouchDownsByRbs = players.filter(player => player.position === 'RB');
 const numOfTouchDownsByRbs = players.reduce((acc, player) =>
   player.position === 'RB' ? acc + player.touchdowns : acc + 0 ,0);
 
