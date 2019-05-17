@@ -9,3 +9,7 @@ Batman is Bruce Wayne
 Spiderman is Peter Parker
 The Flash is Barry Allen
 */
+
+// Better Solution
+const secretIdentity2 = superHeroes.map(revealArray => revealArray.join(' is '));
+console.log(secretIdentity2.join('\n'));
