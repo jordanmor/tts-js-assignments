@@ -63,3 +63,42 @@ Exercise 2
     - A nextPhoto() function that moves currentPhotoIndex to the next index if there is one, and: 4. logs the current photo name. 4. Otherwise, log "End of slideshow";
     - A prevPhoto() function that does the same thing, but backwards.
     - A function getCurrentPhoto() that returns the current photo from the list.
+
+## TTS JavaScript Challenge 5
+
+Exercise 1
+1. Create an Array named superHeroes
+    - Inside the superHeroes array create the following arrays: ["Batman", "Bruce Wayne"],["Spiderman", "Peter Parker"],["The Flash", "Barry Allen"]
+2. Create a secretIdentity variable
+3. Assign superHeroes.map() to the secretIdentity variable
+4. Assign and anonymous function to superheroes.map() as an argument
+5. Your anonymous function should have one parameter named revealArray
+6. Inside the block of your anonymous function:
+    - You'll be working with revealArray as an argument
+    - Using revealArray return a string that will join the two array items.
+    - Join them together with the string "is", ie: "Batman is Bruce Wayne"
+7. Log the results to the screen and join them with a line break.
+
+Exercise 2
+1. Using the following data:
+    - const players = [
+        {firstName: 'Cam', lastName: 'Newton', position: 'QB', touchdowns: 32},
+        {firstName: 'Derek', lastName: 'Anderson', position: 'QB', touchdowns: 0},
+        {firstName: 'Jonathan', lastName: 'Stewart', position: 'RB', touchdowns: 12},
+        {firstName: 'Mike', lastName: 'Tolbert', position: 'RB', touchdowns: 8},
+        {firstName: 'Fozzy', lastName: 'Whittaker', position: 'RB', touchdowns: 3},
+        {firstName: 'Ted', lastName: 'Ginn', position: 'WR', touchdowns: 9},
+        {firstName: 'Devin', lastName: 'Funchess', position: 'WR', touchdowns: 2}
+    ];
+2. Find a player with the name 'Mike'
+3. Get an array of all players with position 'RB'
+4. Get an array of all the players lastNames
+5. Get an array of the full names of all the runningbacks with more than 5 touchdowns
+6. Get the number of touchdowns scored by Runningbacks
+
+Exercise 3  
+- Going back to our slideshow object, let's add some functionality.
+    1. Create an empty property named playInterval
+    2. A play() function that moves to the next photo ever 2000ms until the end. <em>Tip - use playInterval = setInterval(fn,ms).</em>
+    3. A pause() function that stops the slideshow <em>Tip - use clearInterval(playInterval)</em>
+    4. Automatically pause the slideshow if it gets to the end of the photolist while playing.
