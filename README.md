@@ -13,11 +13,17 @@
 
 ## TTS JavaScript Challenge 2
 
-[Exercise 1](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2002%20-%20Data%20Structures%20-%20Arrays%20&%20Objects.md#exercise-1)  
-[Exercise 2](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2002%20-%20Data%20Structures%20-%20Arrays%20%26%20Objects.md#exercise-addressing-objects)  
+Exercise 1  
+- Use an array to keep track of your shopping list at the grocery store.  
+- [Exercise 1 Instructions](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2002%20-%20Data%20Structures%20-%20Arrays%20&%20Objects.md#exercise-1)  
+
+Exercise 2
+- Given the following object, get the following values...
+- [Exercise 2 Instructions](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2002%20-%20Data%20Structures%20-%20Arrays%20%26%20Objects.md#exercise-addressing-objects)
+
 Exercise 3
 - Create an object that models the data of your favorite email application. Add as much detail as you'd like. 
-- Nest objects inside of arrays and arrays inside of objects multiple levels deep. Ask yourself if some of the primatives you've created could be objects instead. 
+- Nest objects inside of arrays and arrays inside of objects multiple levels deep. Ask yourself if some of the primitives you've created could be objects instead. 
 - Once you've composed your object, write some code to address it.
 - Push the completed code to our GitHub channel.
 

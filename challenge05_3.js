@@ -32,4 +32,5 @@ const slideshow = {
   }
 }
 
+// The slideshow will pause if it gets to the end of the photolist while playing.
 slideshow.play();
