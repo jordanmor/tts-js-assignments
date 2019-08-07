@@ -1,0 +1,33 @@
+main {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.slideshow,
+.slideshow > div {
+  display: flex;
+}
+
+.slideshow {
+  flex-direction: row;
+  justify-content: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.photo-container {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.btn-container {
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+}
+
+.btn-container button {
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+}

@@ -68,7 +68,11 @@ Exercise 2
     - An integer currentPhotoIndex that represents which photo in the photoList is currently displayed
     - A nextPhoto() function that moves currentPhotoIndex to the next index if there is one, and: 4. logs the current photo name. 4. Otherwise, log "End of slideshow";
     - A prevPhoto() function that does the same thing, but backwards.
-    - A function getCurrentPhoto() that returns the current photo from the list.
+    - A function getCurrentPhoto() that returns the current photo from the list.  
+
+**Updated solution** 
+- Original solution refactored using a closure, short-circuiting and arrow functions 
+- Located in folder challenge04_02_updated
 
 ## TTS JavaScript Challenge 5
 
