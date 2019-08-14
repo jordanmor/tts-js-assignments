@@ -1,10 +1,12 @@
- // Exercise 2
+// TTS JavaScript Assignment 6 Exercise 3
 
- const slideshow = {
+const slideshow = {
   photoList: ["photo1.png", "photo2.png", "photo3.png", "photo4.png", "photo5.png", ],
   currentPhotoIndex: 0,
+  playInterval: null,
   nextPhoto() {
     if(this.currentPhotoIndex === this.photoList.length - 1) {
+      this.pause();
       console.log("End of slideshow");
     } else {
      this.currentPhotoIndex++;
@@ -21,17 +23,14 @@
   },
   getCurrentPhoto() {
     return this.photoList[this.currentPhotoIndex];
+  },
+  play() {
+    this.playInterval = setInterval(() => this.nextPhoto(), 2000);
+  },
+  pause() {
+    clearInterval(this.playInterval);
   }
 }
 
-// Run code to test slideshow
-slideshow.nextPhoto();
-slideshow.nextPhoto();
-slideshow.nextPhoto();
-slideshow.nextPhoto();
-slideshow.nextPhoto();
-slideshow.prevPhoto();
-slideshow.prevPhoto();
-slideshow.prevPhoto();
-slideshow.prevPhoto();
-slideshow.prevPhoto();
+// The slideshow will pause if it gets to the end of the photolist while playing.
+slideshow.play();

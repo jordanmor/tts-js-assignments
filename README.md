@@ -1,4 +1,4 @@
-## TTS JavaScript Challenge 1
+## TTS JavaScript Assignment 1
 
 1. Create a game of 'Rock Paper Scissors' that runs until one player has three wins.  
 2. Store the player names and number of wins for each player in variables.  
@@ -11,7 +11,11 @@
     - When one player wins 3 rounds, announce that player's name as the game winner
     - Push the code to your GitHub Repo
 
-## TTS JavaScript Challenge 2
+    **Submitted files**  
+    `assignment01_a.js` - assignment completed using functions
+    `assignment01_b.js` - At teacher's request, assignment was also completed without using functions or classes
+
+## TTS JavaScript Assignment 2
 
 Exercise 1  
 - Use an array to keep track of your shopping list at the grocery store.  
@@ -27,7 +31,12 @@ Exercise 3
 - Once you've composed your object, write some code to address it.
 - Push the completed code to our GitHub channel.
 
-## TTS JavaScript Challenge 3
+**Submitted files**  
+`assignment02_1.js`  
+`assignment02_2.js`  
+`assignment02_3.js`
+
+## TTS JavaScript Assignment 3 - Rock, Paper, Scissors Game
 
 1. Define a hands array with the values 'rock', 'paper', and 'scissors';
 2. Define a function called getHand() that returns a hand from the array using parseInt(Math.random()*10)%3)
@@ -49,11 +58,13 @@ Exercise 3
 - Take 4 players and playUntil as arguments  
 - Play a game between the first two players, and the second two players  
 - Play a game between the winners of the first round.  
-- Announce the tournament winner's name "\[name] is the world champion";  
+- Announce the tournament winner's name "\[name] is the world champion"; 
 
-## TTS JavaScript Challenge 4
+**Submitted file**  
+`rock-paper-scissors.js` 
 
-Exercise 1
+## TTS JavaScript Assignment 4
+
 - Create an outer function with an inner function. Call the outer function.
 - Declare two variables, a and b in the outer function's scope and set them to a string and an object respectively. Log their values immediately.
 - Log the values of a and b in the inner function.
@@ -62,7 +73,10 @@ Exercise 1
 - Inside the inner function, assign new values to a and b and log them at the end of the function AND after the execution of inner(a,b).
 - Inside the inner function, update a property of the b object.
 
-Exercise 2
+**Submitted file**  
+`assignment04.js` 
+
+## TTS JavaScript Assignment 5 - Slideshow
 - Create a single object named slideshow that represents the data and functionality of a picture slideshow. There should be NO VARIABLES OUTSIDE THE OBJECT. The object should have properties for:
     - An array called photoList that contains the names of the photos as strings
     - An integer currentPhotoIndex that represents which photo in the photoList is currently displayed
@@ -70,11 +84,20 @@ Exercise 2
     - A prevPhoto() function that does the same thing, but backwards.
     - A function getCurrentPhoto() that returns the current photo from the list.  
 
-**Updated solution** 
-- Original solution refactored using a closure, short-circuiting and arrow functions 
-- Located in folder challenge04_02_updated
+**Submitted file**  
+`slideshow.js` 
+    
+---
 
-## TTS JavaScript Challenge 5
+**Updated Solution** 
+- Original solution refactored using a closure, short-circuiting and arrow functions 
+- Created basic html page to display slideshow functionality
+- Located in folder challenge05_updated
+
+**Submitted folder**  
+`slideshow_updated` 
+
+## TTS JavaScript Assignment 6
 
 Exercise 1
 1. Create an Array named superHeroes
@@ -112,3 +135,8 @@ Exercise 3
     2. A play() function that moves to the next photo ever 2000ms until the end. <em>Tip - use playInterval = setInterval(fn,ms).</em>
     3. A pause() function that stops the slideshow <em>Tip - use clearInterval(playInterval)</em>
     4. Automatically pause the slideshow if it gets to the end of the photolist while playing.
+
+**Submitted files**  
+`assignment06_1.js`  
+`assignment06_2.js`  
+`assignment06_3.js`

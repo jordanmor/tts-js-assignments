@@ -1,4 +1,4 @@
-// Exercise 1
+// TTS JavaScript Assignment 6 Exercise 1
 
 const superHeroes = [["Batman", "Bruce Wayne"], ["Spiderman", "Peter Parker"], ["The Flash", "Barry Allen"]];
 const secretIdentity = superHeroes.map(revealArray => `${revealArray[0]} is ${revealArray[1]}`);

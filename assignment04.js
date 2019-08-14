@@ -1,4 +1,4 @@
-// Exercise 1
+// TTS JavaScript Assignment 4
 
 function outer(){
 	let a = "horse";

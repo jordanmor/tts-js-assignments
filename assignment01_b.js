@@ -1,3 +1,4 @@
+// TTS JavaScript Assignment 1
 // Solution using no functions or classes
 const weapons = ['rock' , 'paper', 'scissors'];
 const player1 = 'Player 1';

@@ -1,4 +1,4 @@
-// Exercise 2
+// TTS JavaScript Assignment 6 Exercise 2
 
 const players = [ 
   {firstName: 'Cam', lastName: 'Newton', position: 'QB', touchdowns: 32}, 

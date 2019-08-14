@@ -1,3 +1,5 @@
+// TTS JavaScript Assignment 1
+// Solution using functions and classes
 const weapons = ['rock' , 'paper', 'scissors'];
 let round = 0;
 

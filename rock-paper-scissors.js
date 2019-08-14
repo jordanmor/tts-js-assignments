@@ -1,4 +1,4 @@
-// TTS JavaScript Challenge 3
+// TTS JavaScript Assignment 3 - Rock, Paper, Scissors Game
 
 class Player {
   constructor(name) {
