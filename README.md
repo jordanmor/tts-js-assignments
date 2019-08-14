@@ -12,7 +12,7 @@
     - Push the code to your GitHub Repo
 
     **Submitted files**  
-    `assignment01_a.js` - assignment completed using functions
+    `assignment01_a.js` - assignment completed using functions  
     `assignment01_b.js` - At teacher's request, assignment was also completed without using functions or classes
 
 ## TTS JavaScript Assignment 2
