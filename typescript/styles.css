@@ -1,0 +1,21 @@
+body {
+  margin: 2rem;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.card-deck .card {
+  min-width: 250px;
+  max-width: 350px;
+  flex-basis: auto;
+  margin-bottom: 2rem;
+}
+
+.employee-icon {
+  width: 60%;
+  align-self: center;
+  margin: 1rem;
+}
