@@ -1,19 +1,22 @@
 class Employee {
-  firstName: string;
-  lastName: string;
-  phone: string;
-  street: string;
-  city: string;
-  state: string;
+  private employeeId;
+  private firstName: string;
+  private lastName: string;
+  private phone: string;
+  private street: string;
+  private city: string;
+  private state: string;
   // zip codes can start with 0, so the value is a better choice as a string type
-  zipCode: string;
-  occupation: string;
-  age: number;
-  gender: string;
-  hourlyWage: number;
-  dateEmployed: Date;
+  private zipCode: string;
+  private occupation: string;
+  private age: number;
+  private gender: string;
+  private hourlyWage: number;
+  private dateEmployed: Date;
+  private certifications: string[];
 
   constructor(
+    employeeId: number,
     firstName: string, 
     lastName: string,
     phone: string,
@@ -25,8 +28,10 @@ class Employee {
     age: number,
     gender: string,
     hourlyWage: number,
-    dateEmployed: Date
+    dateEmployed: Date,
+    certifications: string[] = []
     ) {
+    this.employeeId = employeeId;
     this.firstName = firstName;
     this.lastName = lastName;
     this.phone = phone;
@@ -39,6 +44,11 @@ class Employee {
     this.gender = gender;
     this.hourlyWage = hourlyWage;
     this.dateEmployed = dateEmployed;
+    this.certifications = certifications;
+  }
+
+  public getEmployeeId() : number {
+    return this.employeeId;
   }
 
   public getFullName() : string {
@@ -57,12 +67,12 @@ class Employee {
     return this.age;
   }
 
-  public getWeeklyWage(hoursPerWeek: number = 40) : number {
-    return hoursPerWeek * this.hourlyWage;
-  }
-
   public getGender() : string {
     return this.gender;
+  }
+
+  public getWeeklyWage(hoursPerWeek: number = 40) : number {
+    return hoursPerWeek * this.hourlyWage;
   }
 
   public getOccupation() : string {
@@ -71,5 +81,15 @@ class Employee {
 
   public getDateEmployed(): string {
     return `${this.dateEmployed.getMonth()}-${this.dateEmployed.getDate()}-${this.dateEmployed.getFullYear()}`;
+  }
+
+  public getCertifications(): string[] {
+    return this.certifications;
+  }
+
+  public addCerts(...certs: string[]): void {
+    for(let cert of certs) {
+      this.certifications.push(cert);
+    }
   }
 }
