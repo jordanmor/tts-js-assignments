@@ -14,7 +14,7 @@
 **Submitted folder**  
 `typescript` 
 
-<img src="/images/typescript-screenshot.png" width="800">
+![TypeScript Assignment Screen Shot](/images/typescript-screenshot.png)
 
 # Tech Talent South
 
