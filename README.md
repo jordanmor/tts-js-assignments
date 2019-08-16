@@ -14,6 +14,8 @@
 **Submitted folder**  
 `typescript` 
 
+<img src="/images/typescript-screenshot.png" width="800">
+
 # Tech Talent South
 
 ## TTS JavaScript Assignment 1
