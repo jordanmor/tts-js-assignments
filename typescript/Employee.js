@@ -16,6 +16,9 @@ var Employee = /** @class */ (function () {
         this.dateEmployed = dateEmployed;
         this.certifications = certifications;
     }
+    Employee.buildEmployeeWithOptions = function (option) {
+        return new Employee(option.employeeId, option.firstName, option.lastName, option.phone, option.street, option.city, option.state, option.zipCode, option.occupation, option.age, option.gender, option.hourlyWage, option.dateEmployed, option.certifications);
+    };
     Employee.prototype.getEmployeeId = function () {
         return this.employeeId;
     };
@@ -23,7 +26,10 @@ var Employee = /** @class */ (function () {
         return this.firstName + " " + this.lastName;
     };
     Employee.prototype.getFullAddress = function () {
-        return this.street + ", " + this.city + ", " + this.state + " " + this.zipCode;
+        if (this.street && this.city && this.state && this.zipCode) {
+            return this.street + ", " + this.city + ", " + this.state + " " + this.zipCode;
+        }
+        return;
     };
     Employee.prototype.getPhone = function () {
         return this.phone;

@@ -5,6 +5,8 @@ const employees: Employee[] = [
   new Employee(4, "Harry", "Potter", "8601109938", "111 Tulson Dr.", "Farmington", "CT", "06030", "Full Stack Developer", 55, "male", 32.50, new Date("2018-11-11"), ["MBA"]),
   new Employee(5, "Corinne", "Henderson", "8607227777", "88 Bellow Rd.", "Windsor", "CT", "06002", "Java Developer", 29, "female", 35.50, new Date("2016-02-27"), ["BCS"]),
   new Employee(6, "John", "Kettle", "8605346655", "45 Willow Rd.", "Canton", "CT", "06019", "Java Developer", 28, "male", 33.65, new Date("2017-03-25")),
+  Employee.buildEmployeeWithOptions({employeeId: 8, firstName: "Alicia", lastName: "Grand", dateEmployed: new Date(), phone: "8602554545", occupation: "Jr. JavaScript Developer", gender: "female"}),
+  Employee.buildEmployeeWithOptions({employeeId: 7, firstName: "Gregory", lastName: "Harrison", dateEmployed: new Date(), occupation: "Jr. Front End Developer", gender: "male"}),
 ];
 
 /**
@@ -34,18 +36,26 @@ const populateEmployeeCards = (employees: Employee[]) => {
       <img class="employee-icon" src="images/employee-${employee.getGender() == "female" ? "female" : "male"}.png" class="card-img-top" alt="Employee Icon">
       <div class="card-body">
         <h5 class="card-title">${employee.getFullName()}</h5>
-        <p class="card-text">${employee.getFullAddress()}</p>
-        <p class="card-text">Phone: ${employee.getPhone()}</p>
-        <p class="card-text">Age: ${employee.getAge()}</p>
-        <p class="card-text">Position: ${employee.getOccupation()}</p>
-        <p class="card-text">Weekly Salary: $${employee.getWeeklyWage().toFixed(2)}</p>
-        ${
-          employee.getCertifications().length 
-          ?
-          `<p class="card-text">Certifications/Degrees: ${employee.getCertifications()}</p>`
-          : 
-          ""
-        }
+    `;
+    if(employee.getFullAddress() != undefined) {
+      html += `<p class="card-text">${employee.getFullAddress()}</p>`;
+    }
+    if(employee.getPhone()) {
+      html += `<p class="card-text">Phone: ${employee.getPhone()}</p>`;
+    }
+    if(employee.getAge()) {
+      html += `<p class="card-text">Age: ${employee.getAge()}</p>`;
+    }
+    if(employee.getOccupation()) {
+      html += `<p class="card-text">Position: ${employee.getOccupation()}</p>`;
+    } 
+    if(employee.getWeeklyWage()) {
+      html += `<p class="card-text">Weekly Salary: $${employee.getWeeklyWage().toFixed(2)}</p>`;
+    } 
+    if(employee.getCertifications().length) {
+      html += `<p class="card-text">Certifications/Degrees: ${employee.getCertifications()}</p>`;
+    }
+    html += `
       </div>
       <div class="card-footer">
         <small class="text-muted">Date employed: ${employee.getDateEmployed()}</small>

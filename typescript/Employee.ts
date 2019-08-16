@@ -1,12 +1,28 @@
+interface EmployeeOptions {
+  employeeId: number;
+  firstName: string;
+  lastName: string;
+  phone?: string;
+  street?: string;
+  city?: string;
+  state?: string;
+  zipCode?: string;
+  occupation?: string;
+  age?: number;
+  gender: string;
+  hourlyWage?: number;
+  dateEmployed: Date;
+  certifications?: string[];
+}
+
 class Employee {
-  private employeeId;
+  private employeeId: number;
   private firstName: string;
   private lastName: string;
   private phone: string;
   private street: string;
   private city: string;
   private state: string;
-  // zip codes can start with 0, so the value is a better choice as a string type
   private zipCode: string;
   private occupation: string;
   private age: number;
@@ -47,6 +63,25 @@ class Employee {
     this.certifications = certifications;
   }
 
+  public static buildEmployeeWithOptions(option: EmployeeOptions) : Employee {
+    return new Employee(
+      option.employeeId,
+      option.firstName,
+      option.lastName,
+      option.phone,
+      option.street,
+      option.city,
+      option.state,
+      option.zipCode,
+      option.occupation,
+      option.age,
+      option.gender,
+      option.hourlyWage,
+      option.dateEmployed,
+      option.certifications
+    );
+  }
+
   public getEmployeeId() : number {
     return this.employeeId;
   }
@@ -56,7 +91,10 @@ class Employee {
   }
 
   public getFullAddress() : string {
-    return `${this.street}, ${this.city}, ${this.state} ${this.zipCode}`;
+    if(this.street && this.city && this.state && this.zipCode) {
+      return `${this.street}, ${this.city}, ${this.state} ${this.zipCode}`;
+    }
+    return;
   }
 
   public getPhone() : string {

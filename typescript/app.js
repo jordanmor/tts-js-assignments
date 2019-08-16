@@ -5,6 +5,8 @@ var employees = [
     new Employee(4, "Harry", "Potter", "8601109938", "111 Tulson Dr.", "Farmington", "CT", "06030", "Full Stack Developer", 55, "male", 32.50, new Date("2018-11-11"), ["MBA"]),
     new Employee(5, "Corinne", "Henderson", "8607227777", "88 Bellow Rd.", "Windsor", "CT", "06002", "Java Developer", 29, "female", 35.50, new Date("2016-02-27"), ["BCS"]),
     new Employee(6, "John", "Kettle", "8605346655", "45 Willow Rd.", "Canton", "CT", "06019", "Java Developer", 28, "male", 33.65, new Date("2017-03-25")),
+    Employee.buildEmployeeWithOptions({ employeeId: 8, firstName: "Alicia", lastName: "Grand", dateEmployed: new Date(), phone: "8602554545", occupation: "Jr. JavaScript Developer", gender: "female" }),
+    Employee.buildEmployeeWithOptions({ employeeId: 7, firstName: "Gregory", lastName: "Harrison", dateEmployed: new Date(), occupation: "Jr. Front End Developer", gender: "male" }),
 ];
 /**
  * @function addCertification Add certifications and degrees for a specific employee by their id
@@ -33,12 +35,28 @@ var populateEmployeeCards = function (employees) {
     var html = "";
     for (var _i = 0, employees_2 = employees; _i < employees_2.length; _i++) {
         var employee = employees_2[_i];
-        html += "\n    <div class=\"card\">\n      <img class=\"employee-icon\" src=\"images/employee-" + (employee.getGender() == "female" ? "female" : "male") + ".png\" class=\"card-img-top\" alt=\"Employee Icon\">\n      <div class=\"card-body\">\n        <h5 class=\"card-title\">" + employee.getFullName() + "</h5>\n        <p class=\"card-text\">" + employee.getFullAddress() + "</p>\n        <p class=\"card-text\">Phone: " + employee.getPhone() + "</p>\n        <p class=\"card-text\">Age: " + employee.getAge() + "</p>\n        <p class=\"card-text\">Position: " + employee.getOccupation() + "</p>\n        <p class=\"card-text\">Weekly Salary: $" + employee.getWeeklyWage().toFixed(2) + "</p>\n        " + (employee.getCertifications().length
-            ?
-                "<p class=\"card-text\">Certifications/Degrees: " + employee.getCertifications() + "</p>"
-            :
-                "") + "\n      </div>\n      <div class=\"card-footer\">\n        <small class=\"text-muted\">Date employed: " + employee.getDateEmployed() + "</small>\n      </div>\n    </div>\n    ";
+        html += "\n    <div class=\"card\">\n      <img class=\"employee-icon\" src=\"images/employee-" + (employee.getGender() == "female" ? "female" : "male") + ".png\" class=\"card-img-top\" alt=\"Employee Icon\">\n      <div class=\"card-body\">\n        <h5 class=\"card-title\">" + employee.getFullName() + "</h5>\n    ";
+        if (employee.getFullAddress() != undefined) {
+            html += "<p class=\"card-text\">" + employee.getFullAddress() + "</p>";
+        }
+        if (employee.getPhone()) {
+            html += "<p class=\"card-text\">Phone: " + employee.getPhone() + "</p>";
+        }
+        if (employee.getAge()) {
+            html += "<p class=\"card-text\">Age: " + employee.getAge() + "</p>";
+        }
+        if (employee.getOccupation()) {
+            html += "<p class=\"card-text\">Position: " + employee.getOccupation() + "</p>";
+        }
+        if (employee.getWeeklyWage()) {
+            html += "<p class=\"card-text\">Weekly Salary: $" + employee.getWeeklyWage().toFixed(2) + "</p>";
+        }
+        if (employee.getCertifications().length) {
+            html += "<p class=\"card-text\">Certifications/Degrees: " + employee.getCertifications() + "</p>";
+        }
+        html += "\n      </div>\n      <div class=\"card-footer\">\n        <small class=\"text-muted\">Date employed: " + employee.getDateEmployed() + "</small>\n      </div>\n    </div>\n    ";
     }
+    // Add employees info to the DOM in the form of a Bootstrap 4 card deck
     document.getElementById("cardDeck").innerHTML = html;
 };
 /* --- Initialize page --- */
