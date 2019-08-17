@@ -5,7 +5,9 @@
 - **Completed Lodash Exercises**  
 Lab File - `js-lib-lab/lodash-lab.js` 
 - **Completed Moment Exercises**  
-Lab File - `js-lib-lab/moment-lab.js`   
+Lab File - `js-lib-lab/moment-lab.js` 
+- **Completed mathjs Exercises**  
+Lab File - `js-lib-lab/mathjs-lab.js`
 
 ## TTS Assignment - TypeScript (Angular Basics)  
 
