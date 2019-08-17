@@ -1,5 +1,4 @@
-## JavaScript Libraries Lab
+## TTS Assignment - JavaScript Libraries
 
-### Lodash Exercises  
-**Lab File**  
-`lodash.js`
+- **Completed Lodash Exercises**  
+Lab File - `lodash.js`
