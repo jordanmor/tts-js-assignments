@@ -14,6 +14,8 @@
 **Submitted folder**  
 `typescript` 
 
+**Screenshot of my completed TypeScript assignment**  
+
 ![TypeScript Assignment Screen Shot](/images/typescript-screenshot.png)
 
 # Tech Talent South
