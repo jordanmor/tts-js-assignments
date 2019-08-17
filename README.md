@@ -3,9 +3,9 @@
 ## TTS Assignment - JavaScript Libraries
 
 - **Completed Lodash Exercises**  
-Lab File - `js-lib-lab/lodash.js`
+Lab File - `js-lib-lab/lodash-lab.js`  
 
-## TTS Assignment - TypeScript (Angular Basics)
+## TTS Assignment - TypeScript (Angular Basics)  
 
 - Create an HTML file template and a TypeScript file. Compile the TypeScript file by to the proper folder in the command prompt and compile with the tsc command. Note the name of the produced JavaScript file. Reference the JavaScript file from the HTML page, then launch the HTML page in a browser to verify the output.
 - Create a class called `Employee`. Give it the properties of first name, last name, age, phone number, state, zip code, and occupation. Create a constructor to initialize these properties. Also create several method to return combinations of interest, such as Full name, Name and Phone Number, Location, etc.
