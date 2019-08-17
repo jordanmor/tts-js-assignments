@@ -8,6 +8,8 @@ Lab File - `js-lib-lab/lodash-lab.js`
 Lab File - `js-lib-lab/moment-lab.js` 
 - **Completed mathjs Exercises**  
 Lab File - `js-lib-lab/mathjs-lab.js`
+- **Completed DataTable Lab**  
+Lab Folder - `js-lib-lab/data-table-lab`
 
 ## TTS Assignment - TypeScript (Angular Basics)  
 

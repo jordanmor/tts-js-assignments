@@ -6,3 +6,5 @@ Lab File - `lodash-lab.js`
 Lab File - `moment-lab.js`
 - **Completed mathjs Exercises**  
 Lab File - `mathjs-lab.js`
+- **Completed DataTable Lab**  
+Lab Folder - `data-table-lab`

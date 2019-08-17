@@ -1,0 +1,13 @@
+/* -- Person Table Styles -- */
+
+/* Align headings to the left */
+table.dataTable thead th,
+table.dataTable tfoot th {
+  text-align: left;
+}
+
+/* -- Base Table Styles -- */
+
+.la {
+  text-align:left;
+}
