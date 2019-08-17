@@ -3,7 +3,9 @@
 ## TTS Assignment - JavaScript Libraries
 
 - **Completed Lodash Exercises**  
-Lab File - `js-lib-lab/lodash-lab.js`  
+Lab File - `js-lib-lab/lodash-lab.js` 
+- **Completed Moment Exercises**  
+Lab File - `js-lib-lab/moment-lab.js`   
 
 ## TTS Assignment - TypeScript (Angular Basics)  
 
