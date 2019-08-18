@@ -14,6 +14,9 @@ Lab Folder - `js-lib-lab/data-table-lab`
 Lab File - `js-lib-lab/chart.html`
 - **Completed React Lab**  
 Lab File - `js-lib-lab/react.html`
+- **Completed Vue Lab**  
+As instructed, completed following Vue's tutorial video ["An Introduction to Vue"](https://player.vimeo.com/video/247494684)  
+Lab File - `js-lib-lab/vue.html`
 
 ## TTS Assignment - TypeScript (Angular Basics)  
 

@@ -12,3 +12,6 @@ Lab Folder - `data-table-lab`
 Lab File - `chart.html`
 - **Completed React Lab**  
 Lab File - `react.html`
+- **Completed Vue Lab**  
+As instructed, completed following Vue's tutorial video ["An Introduction to Vue"](https://player.vimeo.com/video/247494684)  
+Lab File - `vue.html`
