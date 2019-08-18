@@ -12,6 +12,8 @@ Lab File - `js-lib-lab/mathjs-lab.js`
 Lab Folder - `js-lib-lab/data-table-lab`
 - **Completed Chart.js Lab**  
 Lab File - `js-lib-lab/chart.html`
+- **Completed React Lab**  
+Lab File - `js-lib-lab/react.html`
 
 ## TTS Assignment - TypeScript (Angular Basics)  
 

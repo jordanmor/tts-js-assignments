@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>React Lab</title>
+  <!-- Added some basic styles -->
+  <style>
+   body {
+     margin: 2rem;
+   }
+   #textInput,
+   button {
+    padding: .5rem;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    outline: none;
+   }
+   #textInput {
+     margin-right: .5rem;
+   }
+  </style>
+</head>
+
+<body>
+
+  <div id="root"></div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  <script type="text/babel">
+    class HelloMessage extends React.Component {
+      constructor(props) {
+        super(props);
+        this.handleClick = this.handleClick.bind(this);
+        this.state = {name: props.name};
+      }
+      // Create a text input area on the page and give it an id.
+      // In the handleClick method, use jQuery to get the value from the text box 
+      // and update the state of the React control so that it is automatically updated.
+      handleClick(e) {
+        const $textInput = $("#textInput");
+        const value = $textInput.val();
+        $textInput.val('');
+        this.setState({ name: value });
+      }
+      render() {
+        return (
+          <div>
+            <h2>
+              Hello {this.state.name}
+            </h2> 
+            <div>
+              <input id="textInput" type="text"/>
+              <button onClick={this.handleClick}>
+                Change Name
+              </button>
+            </div>
+          </div>
+        );
+      } 
+    }
+
+    ReactDOM.render(
+      <HelloMessage name="John Taylor" id="hello" />,
+      document.getElementById('root')
+    );
+  </script>
+</body>
+
+</html>

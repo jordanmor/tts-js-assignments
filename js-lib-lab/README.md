@@ -10,3 +10,5 @@ Lab File - `mathjs-lab.js`
 Lab Folder - `data-table-lab`
 - **Completed Chart.js Lab**  
 Lab File - `chart.html`
+- **Completed React Lab**  
+Lab File - `react.html`
