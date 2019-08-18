@@ -10,6 +10,8 @@ Lab File - `js-lib-lab/moment-lab.js`
 Lab File - `js-lib-lab/mathjs-lab.js`
 - **Completed DataTable Lab**  
 Lab Folder - `js-lib-lab/data-table-lab`
+- **Completed Chart.js Lab**  
+Lab File - `js-lib-lab/chart.html`
 
 ## TTS Assignment - TypeScript (Angular Basics)  
 

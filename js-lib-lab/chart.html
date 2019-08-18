@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chart.js Lab</title>
+</head>
+<body>
+
+  <!-- Create a canvas area in the body, then reference that area when creating a chart: -->
+  <canvas id="chartArea" width="400" height="400"></canvas>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+  <script>
+    // Reference the properties in the ChartJS documentation and change the display to a line graph. 
+    // Also, make the lines blue instead of the color above.
+    const ctx = document.getElementById('chartArea');
+    const chart = new Chart(ctx,
+      {
+        type: 'line', // was bar
+        data: {
+            labels: ['XX-Small', 'X-Small', 'Small', 'Medium', 'Large', 'X-Large'],
+            datasets: [{
+                label: 'Planning Poker Sizes',
+                backgroundColor: 'transparent', // was rgb(255, 55, 128)
+                borderColor: 'blue', // was rgb(255, 55, 128)
+                data: [1, 2, 3, 5, 8, 13]
+        }]},
+        options: {}
+    }); 
+  </script>
+
+</body>
+</html>

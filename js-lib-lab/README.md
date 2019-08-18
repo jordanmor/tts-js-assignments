@@ -8,3 +8,5 @@ Lab File - `moment-lab.js`
 Lab File - `mathjs-lab.js`
 - **Completed DataTable Lab**  
 Lab Folder - `data-table-lab`
+- **Completed Chart.js Lab**  
+Lab File - `chart.html`
