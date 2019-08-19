@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap and jQuery Assignment</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<style>
+  body {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  table th:nth-child(even),
+  table td:nth-child(even) {
+    border: 1px solid red;
+  }
+  table th:nth-child(odd),
+  table td:nth-child(odd) {
+    border: 1px solid blue;
+  }
+  .grid-x-wrapper {
+    border: 1px solid #888;
+    padding: 2rem;
+  }
+  .table-x .row > div {
+    padding: 1rem;
+    text-align: center;
+    border-radius: 2px;
+  }
+  .table-x p.x {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .table-x .six {
+    border-right: none !important;
+  }
+  #colorChanger .btn {
+    width: 100%
+  }
+</style>
+<body>
+
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Bootstrap & jQuery Lab</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Labs</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Projects
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Personal Projects</a>
+              <a class="dropdown-item" href="#">TTS Projects</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Future Projects</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </div>
+
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="mb-4">Bootstrap & jQuery Lab</h1>
+      <button class="btn btn-primary">Find Out More</button>
+    </div>
+  </div>
+
+  <div class="main container">
+
+    <!-- Using the justify-content- classes, create a grid that forms an "X" on the screen.  -->
+    <h3 class="mb-4 text-center">GRID X</h3>
+    <div class="grid-x-wrapper mb-4">
+      <div class="table-x container">
+          <div class="row justify-content-between">
+              <div class="col-1 border border-secondary">1</div>
+              <div class="col-1 border border-secondary">12</div>
+          </div>
+          <div class="row justify-content-start">
+              <div class="col-1 offset-1 border border-secondary">2</div>
+              <div class="col-1 offset-8 border border-secondary">11</div>
+          </div>
+          <div class="row justify-content-start">
+              <div class="col-1 offset-2 border border-secondary">3</div>
+              <div class="col-1 offset-6 border border-secondary">10</div>
+          </div>
+          <div class="row justify-content-start">
+              <div class="col-1 offset-3 border border-secondary">4</div>
+              <div class="col-1 offset-4 border border-secondary">9</div>
+          </div>
+          <div class="row justify-content-start">
+              <div class="col-1 offset-4 border border-secondary">5</div>
+              <div class="col-1 offset-2 border border-secondary">8</div>
+          </div>
+          <div class="row justify-content-start">
+              <div class="col-1 offset-5 border border-secondary six">6</div>
+              <div class="col-1 border border-secondary">7</div>
+          </div>
+          <div class="row">
+              <p class="x col-2 offset-5 p-0 border-0 mb-0 text-center">X</p>
+          </div>
+          <div class="row justify-content-start">
+              <div class="col-1 offset-5 border border-secondary six">6</div>
+              <div class="col-1 border border-secondary">7</div>
+          </div>
+          <div class="row justify-content-start">
+              <div class="col-1 offset-4 border border-secondary">5</div>
+              <div class="col-1 offset-2 border border-secondary">8</div>
+          </div>
+          <div class="row justify-content-start">
+              <div class="col-1 offset-3 border border-secondary">4</div>
+              <div class="col-1 offset-4 border border-secondary">9</div>
+          </div>
+          <div class="row justify-content-start">
+              <div class="col-1 offset-2 border border-secondary">3</div>
+              <div class="col-1 offset-6 border border-secondary">10</div>
+          </div>
+          <div class="row justify-content-start">
+              <div class="col-1 offset-1 border border-secondary">2</div>
+              <div class="col-1 offset-8 border border-secondary">11</div>
+          </div>
+          <div class="row justify-content-between">
+              <div class="col-1 border border-secondary">1</div>
+              <div class="col-1 border border-secondary">12</div>
+          </div>
+        </div> <!-- End of table-x -->
+        
+        <!-- Create a button on the page for changing colors. Code several iterations 
+          of the button and alter the color of the some of the sections you created 
+          earlier by adding or removing classes.  -->
+        <h3 class="text-center mb-3">Change Grid X's color!</h3>
+        <div id="colorChanger">
+          <div class="row">
+            <div class="col-2"><button class="btn btn-primary">Blue</button></div>
+            <div class="col-2"><button class="btn btn-secondary">Gray</button></div>
+            <div class="col-2"><button class="btn btn-success">Green</button></div>
+            <div class="col-2"><button class="btn btn-danger">Red</button></div>
+            <div class="col-2"><button class="btn btn-warning">Yellow</button></div>
+            <div class="col-2"><button class="btn btn-info">Aqua</button></div>
+          </div>
+        </div>
+    </div>
+
+    <h2>Card Deck</h2>
+    <div class="card-deck mb-5">
+      <div class="card">
+        <img src="https://via.placeholder.com/300?text=Image1" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300?text=Image2" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300?text=Image3" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="colors mb-5">
+      <h2 class="mb-3">Experiments with bg-color, text color & alerts</h2>
+      <div class="mb-5">
+        <h3>Message Areas with Various bg-colors</h3>
+        <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+        <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+        <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+        <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+        <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+        <div class="p-3 mb-2 bg-info text-white">.bg-info</div>
+        <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+        <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+      </div>
+
+      <div class="mb-5">
+        <h3>Several areas of colored text</h3>
+        <p class="text-secondary">.text-secondary</p>
+        <p class="text-success">.text-success</p>
+        <p class="text-danger">.text-danger</p>
+        <p class="text-warning">.text-warning</p>
+        <p class="text-info">.text-info</p>
+      </div>
+
+      <div>
+        <div class="bg-primary text-white p-3 mb-2 rounded" role="alert">
+          A custom alert-like section
+        </div>
+        <div class="bg-secondary text-white p-3 mb-2 rounded" role="alert">
+          A custom alert-like section
+        </div>
+        <div class="bg-success text-white p-3 mb-2 rounded" role="alert">
+          A custom alert-like section
+        </div>
+        <div class="bg-danger text-white p-3 mb-2 rounded" role="alert">
+          A custom alert-like section
+        </div>
+        <div class="bg-warning text-dark p-3 mb-2 rounded" role="alert">
+          A custom alert-like section
+        </div>
+        <div class="bg-info text-white p-3 mb-2 rounded" role="alert">
+          A custom alert-like section
+        </div>
+      </div>
+
+    </div> <!-- End of colors div -->
+
+    <h2 class="mb-3">Table Lab</h2>
+    <h3>Table One</h3>
+    <table class="table table-borderless mb-5">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry</td>
+          <td>Meadows</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table> <!-- End of table one -->
+
+    <h3>Table Two</h3>
+    <!-- Create several rows, each with a different number of columns. -->
+    <div class="container table-two mb-5">
+      <div class="row">
+        <div class="col border border-danger p-3">
+          My column data
+        </div>
+        <div class="col border border-primary p-3">
+          My column data
+        </div>
+        <div class="col border border-danger p-3">
+          My column data
+        </div>
+      </div>
+      <div class="row">
+        <div class="col border border-danger p-3">
+          My column data
+        </div>
+        <div class="col border border-primary p-3">
+          My column data
+        </div>
+        <div class="col border border-danger p-3">
+          My column data
+        </div>
+        <div class="col border border-primary p-3">
+            My column data
+        </div>
+      </div>
+      <!-- Use add adaptive sizing. Change the col- classes to col-md- -->
+      <div class="row">
+        <div class="col-md-4 border border-danger p-3">
+          My column data
+        </div>
+        <div class="col-md-4 border border-primary p-3">
+          My column data
+        </div>
+        <div class="col-md-4 border border-danger p-3">
+          My column data
+        </div>
+        <div class="col-md-4 border border-primary p-3">
+            My column data
+        </div>
+        <div class="col-md-4 border border-danger p-3">
+          My column data
+        </div>
+        <div class="col-md-4 border border-primary p-3">
+            My column data
+        </div>
+      </div>
+      <!-- Create a row that has space to the left and all the column content shown to the right. -->
+      <div class="row">
+        <div class="col border border-danger offset-md-3 p-3">
+          My column data
+        </div>
+        <div class="col border border-primary p-3">
+          My column data
+        </div>
+        <div class="col border border-danger p-3">
+          My column data
+        </div>
+        <div class="col border border-primary p-3">
+            My column data
+        </div>
+      </div>
+    </div> <!-- End of table two -->
+
+    <!-- Create an input form using the form-group and form-control classes. 
+         For reference look at the forms section of the Bootstrap documentation. 
+         Also create a button on the form and make it a primary button -->
+    <h3>Form</h3>
+    <form class="mb-5">
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email address">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Choose a t-shirt size</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>X-Small</option>
+          <option>Small</option>
+          <option>Medium</option>
+          <option>Large</option>
+          <option>X-Large</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect2">In what city would you like to attend the conference?</label>
+        <select multiple class="form-control" id="exampleFormControlSelect2">
+          <option>Hartford</option>
+          <option>New Haven</option>
+          <option>Boston</option>
+          <option>New York City</option>
+          <option>Philadelphia</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Comments</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+
+  </div> <!-- End of main container-->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script>
+    $( document ).ready(function() {
+      $("#colorChanger").on("click", function(e) {
+        if(e.target.tagName == "BUTTON") {
+          const className = $(e.target).attr("class").match(/btn-(\w*)/)[1];
+          $(".table-x .row > div")
+            .removeClass(function() {
+              return $(this).attr("class").match(/bg-\w*/) + " " + $(this).attr("class").match(/text-\w*/);
+            })
+            .addClass(() => className == "warning" ? `bg-${className} text-dark` : `bg-${className} text-white`);
+          $(".table-x .row p.x")
+            .removeClass(function() {
+              return $(this).attr("class").match(/text-\w*/);
+            })
+            .addClass(`text-${className}`);
+        }
+      });
+    });
+  </script>
+</body>
+</html>
