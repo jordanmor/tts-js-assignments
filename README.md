@@ -3,20 +3,20 @@
 ## TTS JavaScript Assignment - JavaScript Libraries
 
 - **Completed Lodash Exercises**  
-Lab File - `js-lib-lab/lodash-lab.js` 
+Lab File - [`js-lib-lab/lodash-lab.js`](/js-lib-lab/lodash-lab.js)  
 - **Completed Moment Exercises**  
-Lab File - `js-lib-lab/moment-lab.js` 
+Lab File - [`js-lib-lab/moment-lab.js`](/js-lib-lab/moment-lab.js)  
 - **Completed mathjs Exercises**  
-Lab File - `js-lib-lab/mathjs-lab.js`
+Lab File - [`js-lib-lab/mathjs-lab.js`](/js-lib-lab/mathjs-lab.js)  
 - **Completed DataTable Lab**  
-Lab Folder - `js-lib-lab/data-table-lab`
+Lab Folder - [`js-lib-lab/data-table-lab`](/js-lib-lab/data-table-lab)  
 - **Completed Chart.js Lab**  
-Lab File - `js-lib-lab/chart.html`
+Lab File - [`js-lib-lab/chart.html`](/js-lib-lab/chart.html)  
 - **Completed React Lab**  
-Lab File - `js-lib-lab/react.html`
+Lab File - [`js-lib-lab/react.html`](/js-lib-lab/react.html)  
 - **Completed Vue Lab**  
 As instructed, completed following Vue's tutorial video ["An Introduction to Vue"](https://player.vimeo.com/video/247494684)  
-Lab File - `js-lib-lab/vue.html`
+Lab File - [`js-lib-lab/vue.html`](/js-lib-lab/vue.html)  
 
 ## TTS JavaScript Assignment - TypeScript (Angular Basics)  
 
@@ -30,11 +30,11 @@ Lab File - `js-lib-lab/vue.html`
 - Examine the compiled JavaScript file to see how the tsc changes TypeScript into JavaScript.
 
 **Submitted folder**  
-`typescript` 
+[`typescript`](/typescript)  
 
 **Screenshot of my completed TypeScript assignment**  
 
-![TypeScript Assignment Screen Shot](/images/typescript-screenshot.png)
+![TypeScript Assignment Screen Shot](/images/typescript-screenshot.png)  
 
 ## TTS JavaScript Assignment - Bootstrap & jQuery
 
@@ -51,11 +51,11 @@ Lab File - `js-lib-lab/vue.html`
 - Create a button on the page for changing colors. Code several iterations of the button and alter the color of the some of the sections you created earlier by adding or removing classes.
 
 **Submitted folder**  
-`bootstrap-jquery` 
+[`bootstrap-jquery`](/bootstrap-jquery)  
 
 **Screenshot of Grid X, created using Bootstrap as part of the Bootstrap & jQuery assignment**  
 
-![Grid X Screen Shot](/images/grid-x-screenshot.png)
+![Grid X Screen Shot](/images/grid-x-screenshot.png)  
 
 ## TTS JavaScript Assignment - Slideshow
 - Create a single object named slideshow that represents the data and functionality of a picture slideshow. There should be NO VARIABLES OUTSIDE THE OBJECT. The object should have properties for:
@@ -70,7 +70,7 @@ Lab File - `js-lib-lab/vue.html`
 - I created a basic html page to display the slideshow functionality
 
 **Submitted folder**  
-`slideshow` 
+[`slideshow`](/slideshow) 
 
 # Tech Talent South
 
@@ -99,7 +99,7 @@ Lab File - `js-lib-lab/vue.html`
 - Announce the tournament winner's name "\[name] is the world champion"; 
 
 **Submitted file**  
-`tech-talent-south/rock-paper-scissors.js` 
+[`tech-talent-south/rock-paper-scissors.js`](/tech-talent-south/rock-paper-scissors.js) 
 
 ## TTS JavaScript Assignment 1
 
@@ -115,8 +115,8 @@ Lab File - `js-lib-lab/vue.html`
     - Push the code to your GitHub Repo
 
 **Submitted files**  
-`tech-talent-south/assignment01_a.js` - assignment completed using functions  
-`tech-talent-south/assignment01_b.js` - At teacher's request, assignment was also completed without using functions or classes
+[`tech-talent-south/assignment01_a.js`](/tech-talent-south/assignment01_a.js) - assignment completed using functions  
+[`tech-talent-south/assignment01_b.js`](/tech-talent-south/assignment01_b.js) - At teacher's request, assignment was also completed without using functions or classes
 
 ## TTS JavaScript Assignment 2
 
@@ -135,9 +135,9 @@ Exercise 3
 - Push the completed code to our GitHub channel.
 
 **Submitted files**  
-`tech-talent-south/assignment02_1.js`  
-`tech-talent-south/assignment02_2.js`  
-`tech-talent-south/assignment02_3.js`
+[`tech-talent-south/assignment02_1.js`](/tech-talent-south/assignment02_1.js)    
+[`tech-talent-south/assignment02_2.js`](/tech-talent-south/assignment02_2.js)  
+[`tech-talent-south/assignment02_3.js`](/tech-talent-south/assignment02_3.js)  
 
 ## TTS JavaScript Assignment 3
 
@@ -150,7 +150,7 @@ Exercise 3
 - Inside the inner function, update a property of the b object.
 
 **Submitted file**  
-`tech-talent-south/assignment03.js` 
+[`tech-talent-south/assignment03.js`](/tech-talent-south/assignment03.js)  
 
 ## TTS JavaScript Assignment 4
 
@@ -192,6 +192,6 @@ Exercise 3
     4. Automatically pause the slideshow if it gets to the end of the photolist while playing.
 
 **Submitted files**  
-`tech-talent-south/assignment04_1.js`  
-`tech-talent-south/assignment04_2.js`  
-`tech-talent-south/assignment04_3.js`
+[`tech-talent-south/assignment04_1.js`](/tech-talent-south/assignment04_1.js)  
+[`tech-talent-south/assignment04_2.js`](/tech-talent-south/assignment04_2.js)  
+[`tech-talent-south/assignment04_3.js`](/tech-talent-south/assignment04_3.js)
