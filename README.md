@@ -1,6 +1,6 @@
 # Tech Talent Select
 
-## TTS Assignment - JavaScript Libraries
+## TTS JavaScript Assignment - JavaScript Libraries
 
 - **Completed Lodash Exercises**  
 Lab File - `js-lib-lab/lodash-lab.js` 
@@ -18,7 +18,7 @@ Lab File - `js-lib-lab/react.html`
 As instructed, completed following Vue's tutorial video ["An Introduction to Vue"](https://player.vimeo.com/video/247494684)  
 Lab File - `js-lib-lab/vue.html`
 
-## TTS Assignment - TypeScript (Angular Basics)  
+## TTS JavaScript Assignment - TypeScript (Angular Basics)  
 
 - Create an HTML file template and a TypeScript file. Compile the TypeScript file by to the proper folder in the command prompt and compile with the tsc command. Note the name of the produced JavaScript file. Reference the JavaScript file from the HTML page, then launch the HTML page in a browser to verify the output.
 - Create a class called `Employee`. Give it the properties of first name, last name, age, phone number, state, zip code, and occupation. Create a constructor to initialize these properties. Also create several method to return combinations of interest, such as Full name, Name and Phone Number, Location, etc.
@@ -36,7 +36,7 @@ Lab File - `js-lib-lab/vue.html`
 
 ![TypeScript Assignment Screen Shot](/images/typescript-screenshot.png)
 
-## TTS Assignment - Bootstrap & jQuery
+## TTS JavaScript Assignment - Bootstrap & jQuery
 
 - Look at the list of components on the Bootstrap documentation, pick out a few of the components and code some simple sections
 - Using div sections, create several message areas that have different background colors. Reference the bg- series of classes
@@ -50,54 +50,31 @@ Lab File - `js-lib-lab/vue.html`
 - Using the justify-content- classes, create a grid that forms an "X" on the screen.
 - Create a button on the page for changing colors. Code several iterations of the button and alter the color of the some of the sections you created earlier by adding or removing classes.
 
-**Submitted file**  
-`bootstrap-jquery.html` 
+**Submitted folder**  
+`bootstrap-jquery` 
 
 **Screenshot of Grid X, created using Bootstrap as part of the Bootstrap & jQuery assignment**  
 
 ![Grid X Screen Shot](/images/grid-x-screenshot.png)
 
+## TTS JavaScript Assignment - Slideshow
+- Create a single object named slideshow that represents the data and functionality of a picture slideshow. There should be NO VARIABLES OUTSIDE THE OBJECT. The object should have properties for:
+    - An array called photoList that contains the names of the photos as strings
+    - An integer currentPhotoIndex that represents which photo in the photoList is currently displayed
+    - A nextPhoto() function that moves currentPhotoIndex to the next index if there is one, and: 4. logs the current photo name. 4. Otherwise, log "End of slideshow";
+    - A prevPhoto() function that does the same thing, but backwards.
+    - A function getCurrentPhoto() that returns the current photo from the list.  
+
+**My Assignment Notes**  
+- I used a closure, short-circuiting and arrow functions for the slideshow logic
+- I created a basic html page to display the slideshow functionality
+
+**Submitted folder**  
+`slideshow` 
+
 # Tech Talent South
 
-## TTS JavaScript Assignment 1
-
-1. Create a game of 'Rock Paper Scissors' that runs until one player has three wins.  
-2. Store the player names and number of wins for each player in variables.  
-3. Use a while loop to run the game until one player has 3 wins.  
-4. Use the given data below to randomly select an item.  
-5. Output each players hand to the console
-    - Use an `if` or `switch` statement to determine a winner of the round
-    - Output the round winner's name to the console
-    - Create a way to track how many rounds each player has won
-    - When one player wins 3 rounds, announce that player's name as the game winner
-    - Push the code to your GitHub Repo
-
-    **Submitted files**  
-    `assignment01_a.js` - assignment completed using functions  
-    `assignment01_b.js` - At teacher's request, assignment was also completed without using functions or classes
-
-## TTS JavaScript Assignment 2
-
-Exercise 1  
-- Use an array to keep track of your shopping list at the grocery store.  
-- [Exercise 1 Instructions](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2002%20-%20Data%20Structures%20-%20Arrays%20&%20Objects.md#exercise-1)  
-
-Exercise 2
-- Given the following object, get the following values...
-- [Exercise 2 Instructions](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2002%20-%20Data%20Structures%20-%20Arrays%20%26%20Objects.md#exercise-addressing-objects)
-
-Exercise 3
-- Create an object that models the data of your favorite email application. Add as much detail as you'd like. 
-- Nest objects inside of arrays and arrays inside of objects multiple levels deep. Ask yourself if some of the primitives you've created could be objects instead. 
-- Once you've composed your object, write some code to address it.
-- Push the completed code to our GitHub channel.
-
-**Submitted files**  
-`assignment02_1.js`  
-`assignment02_2.js`  
-`assignment02_3.js`
-
-## TTS JavaScript Assignment 3 - Rock, Paper, Scissors Game
+## TTS JavaScript Assignment - Rock, Paper, Scissors Game
 
 1. Define a hands array with the values 'rock', 'paper', and 'scissors';
 2. Define a function called getHand() that returns a hand from the array using parseInt(Math.random()*10)%3)
@@ -122,9 +99,47 @@ Exercise 3
 - Announce the tournament winner's name "\[name] is the world champion"; 
 
 **Submitted file**  
-`rock-paper-scissors.js` 
+`tech-talent-south/rock-paper-scissors.js` 
 
-## TTS JavaScript Assignment 4
+## TTS JavaScript Assignment 1
+
+1. Create a game of 'Rock Paper Scissors' that runs until one player has three wins.  
+2. Store the player names and number of wins for each player in variables.  
+3. Use a while loop to run the game until one player has 3 wins.  
+4. Use the given data below to randomly select an item.  
+5. Output each players hand to the console
+    - Use an `if` or `switch` statement to determine a winner of the round
+    - Output the round winner's name to the console
+    - Create a way to track how many rounds each player has won
+    - When one player wins 3 rounds, announce that player's name as the game winner
+    - Push the code to your GitHub Repo
+
+**Submitted files**  
+`tech-talent-south/assignment01_a.js` - assignment completed using functions  
+`tech-talent-south/assignment01_b.js` - At teacher's request, assignment was also completed without using functions or classes
+
+## TTS JavaScript Assignment 2
+
+Exercise 1  
+- Use an array to keep track of your shopping list at the grocery store.  
+- [Exercise 1 Instructions](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2002%20-%20Data%20Structures%20-%20Arrays%20&%20Objects.md#exercise-1)  
+
+Exercise 2
+- Given the following object, get the following values...
+- [Exercise 2 Instructions](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2002%20-%20Data%20Structures%20-%20Arrays%20%26%20Objects.md#exercise-addressing-objects)
+
+Exercise 3
+- Create an object that models the data of your favorite email application. Add as much detail as you'd like. 
+- Nest objects inside of arrays and arrays inside of objects multiple levels deep. Ask yourself if some of the primitives you've created could be objects instead. 
+- Once you've composed your object, write some code to address it.
+- Push the completed code to our GitHub channel.
+
+**Submitted files**  
+`tech-talent-south/assignment02_1.js`  
+`tech-talent-south/assignment02_2.js`  
+`tech-talent-south/assignment02_3.js`
+
+## TTS JavaScript Assignment 3
 
 - Create an outer function with an inner function. Call the outer function.
 - Declare two variables, a and b in the outer function's scope and set them to a string and an object respectively. Log their values immediately.
@@ -135,30 +150,9 @@ Exercise 3
 - Inside the inner function, update a property of the b object.
 
 **Submitted file**  
-`assignment04.js` 
+`tech-talent-south/assignment03.js` 
 
-## TTS JavaScript Assignment 5 - Slideshow
-- Create a single object named slideshow that represents the data and functionality of a picture slideshow. There should be NO VARIABLES OUTSIDE THE OBJECT. The object should have properties for:
-    - An array called photoList that contains the names of the photos as strings
-    - An integer currentPhotoIndex that represents which photo in the photoList is currently displayed
-    - A nextPhoto() function that moves currentPhotoIndex to the next index if there is one, and: 4. logs the current photo name. 4. Otherwise, log "End of slideshow";
-    - A prevPhoto() function that does the same thing, but backwards.
-    - A function getCurrentPhoto() that returns the current photo from the list.  
-
-**Submitted file**  
-`slideshow.js` 
-    
----
-
-**Updated Solution** 
-- Original solution refactored using a closure, short-circuiting and arrow functions 
-- Created basic html page to display slideshow functionality
-- Located in folder challenge05_updated
-
-**Submitted folder**  
-`slideshow_updated` 
-
-## TTS JavaScript Assignment 6
+## TTS JavaScript Assignment 4
 
 Exercise 1
 1. Create an Array named superHeroes
@@ -198,6 +192,6 @@ Exercise 3
     4. Automatically pause the slideshow if it gets to the end of the photolist while playing.
 
 **Submitted files**  
-`assignment06_1.js`  
-`assignment06_2.js`  
-`assignment06_3.js`
+`tech-talent-south/assignment04_1.js`  
+`tech-talent-south/assignment04_2.js`  
+`tech-talent-south/assignment04_3.js`
