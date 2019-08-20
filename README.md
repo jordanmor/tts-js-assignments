@@ -36,6 +36,30 @@ Lab File - [`js-lib-lab/vue.html`](/js-lib-lab/vue.html)
 
 ![TypeScript Assignment Screen Shot](/images/typescript-screenshot.png)  
 
+## TTS JavaScript Assignment - Angular Labs
+### Part 1 - Angular Fundamentals
+- Build a simple Angular app using routing, services, dependency injection, observables, forms and animation  
+
+**folder (to be submitted)**  
+[`angular/angular-lab`](/angular/angular-lab)  
+
+### Part 2 - Angular Tour of Heroes  
+- Go to the Angular.io site and work through the Angular Tour of Heroes app. Be sure to do the CLI-based version of the tutorial.
+- Learn to set up a local development environment, use the Angular CLI tool, create Angular components, display and hide elements and lists, use one-way data binding for read-only data, add editable fields to update a model with two-way data binding, bind component methods to user events, format data with pipes, create and use shared services, use routing to navigate among different views and their components and add data persistence features with help from Angular's HttpClient.   
+
+**Submitted folder**   
+[`angular/angular-tour-of-heroes`](/angular/angular-tour-of-heroes) 
+
+### Part 3 - Angular Testing  
+
+**folder (to be submitted)**  
+[`angular/angular-testing`](/angular/angular-testing)   
+
+### Part 4 - Material and PrimeNG  
+
+**folders (to be submitted)**  
+[`angular/mat-test`](/angular/mat-test)  
+[`angular/prime-test`](/angular/prime-test)   
 ## TTS JavaScript Assignment - Bootstrap & jQuery
 
 - Look at the list of components on the Bootstrap documentation, pick out a few of the components and code some simple sections
