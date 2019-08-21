@@ -1,4 +1,15 @@
-# AngularLab
+## TTS Assignment - Angular Services 
+### Part 1 - Angular Fundamentals
+
+Name: Jordan Mor  
+Assignment Title: Angular Services Lab-Homework (Day 19)  
+Assigned: 8/15/19 (Day 19 Bootcamp - Week 4)  
+[Github Repo](https://github.com/jordanmor/tts-js-assignments) 
+
+Lab/Homework Instructions  
+- Build a simple Angular app using routing, services, dependency injection, observables, forms and animation  
+
+---
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
 

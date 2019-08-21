@@ -1,5 +1,11 @@
 ## TTS Assignment - TypeScript (Angular Basics)
 
+Name: Jordan Mor  
+Assignment Title: Angular Basics Lab-Homework (Day 18)  
+Assigned: 8/14/19 (Day 18 Bootcamp - Week 4)  
+[Github Repo](https://github.com/jordanmor/tts-js-assignments) 
+
+Lab/Homework Instructions  
 - Create an HTML file template and a TypeScript file. Compile the TypeScript file by to the proper folder in the command prompt and compile with the tsc command. Note the name of the produced JavaScript file. Reference the JavaScript file from the HTML page, then launch the HTML page in a browser to verify the output.
 - Create a class called `Employee`. Give it the properties of first name, last name, age, phone number, state, zip code, and occupation. Create a constructor to initialize these properties. Also create several method to return combinations of interest, such as Full name, Name and Phone Number, Location, etc.
 - Compile the file again with tsc to ensure the syntax is correct.
@@ -11,4 +17,4 @@
 
 **Screenshot of my completed TypeScript assignment**  
 
-![TypeScript Assignment Screen Shot](../images/typescript-screenshot.png)
+![TypeScript Assignment Screen Shot](/images/typescript-screenshot.png)
