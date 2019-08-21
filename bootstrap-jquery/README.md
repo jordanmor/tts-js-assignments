@@ -20,4 +20,4 @@ Lab/Homework Instructions
 
 **Screenshot of Grid X, created using Bootstrap as part of the Bootstrap & jQuery assignment**  
 
-![Grid X Screen Shot](/grid-x-screenshot.png)  
+![Grid X Screen Shot](grid-x-screenshot.png)  

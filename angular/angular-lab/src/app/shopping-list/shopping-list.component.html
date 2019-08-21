@@ -1,1 +1,5 @@
-<p>shopping-list works!</p>
+<ul *ngIf="shoppingItems">
+  <li *ngFor="let item of shoppingItems">
+    <span>{{ item.id }}</span> {{ item.name }}
+  </li>
+</ul>

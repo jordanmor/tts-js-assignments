@@ -17,4 +17,4 @@ Lab/Homework Instructions
 
 **Screenshot of my completed TypeScript assignment**  
 
-![TypeScript Assignment Screen Shot](/images/typescript-screenshot.png)
+![TypeScript Assignment Screen Shot](images/typescript-screenshot.png)

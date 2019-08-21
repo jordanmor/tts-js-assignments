@@ -6,8 +6,11 @@ Assignment Title: Angular Services Lab-Homework (Day 19)
 Assigned: 8/15/19 (Day 19 Bootcamp - Week 4)  
 [Github Repo](https://github.com/jordanmor/tts-js-assignments) 
 
-Lab/Homework Instructions  
-- Build a simple Angular app using routing, services, dependency injection, observables, forms and animation  
+**Lab/Homework Instructions**   
+Build a simple Angular app using routing, services, dependency injection, observables, forms and animation.   
+- Create several components, modify the html templates to display something other than the default message, create a route for each new component and add a tag/link that goes to the page.
+- Create and style pages links, either as horizontal or vertical items so they resemble a menu
+- Make one of the components serve as the application default. Give it some additional "Welcome to the site" verbiage and make it the default route in the routing system.
 
 ---
 

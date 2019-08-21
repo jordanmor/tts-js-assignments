@@ -1,0 +1,5 @@
+<ul *ngIf="movies">
+    <li *ngFor="let movie of movies">
+      <span>{{ movie.id }}</span> {{ movie.name }}
+    </li>
+  </ul>
