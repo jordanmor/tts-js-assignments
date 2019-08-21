@@ -7,8 +7,8 @@ Assigned: 8/15/19 (Day 19 Bootcamp - Week 4)
 [Github Repo](https://github.com/jordanmor/tts-js-assignments) 
 
 Lab/Homework Instructions   
-- Go to the Angular.io site and work through the Angular Tour of Heroes app. 
-- Be sure to do the CLI-based version of the tutorial.
+- Go to the Angular.io site and work through the Angular Tour of Heroes app. Be sure to do the CLI-based version of the tutorial.
+- Learn to set up a local development environment, use the Angular CLI tool, create Angular components, display and hide elements and lists, use one-way data binding for read-only data, add editable fields to update a model with two-way data binding, bind component methods to user events, format data with pipes, create and use shared services, use routing to navigate among different views and their components and add data persistence features with help from Angular's HttpClient.
 
 --- 
 

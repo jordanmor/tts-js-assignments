@@ -1,9 +1,9 @@
-## TTS Assignment - Angular Services 
-### Part 1 - Angular Fundamentals
+## TTS Assignment - Angular Lab 
+### Part 1 - Angular Fundamentals - Routing, Services, Dependency Injection, Observables, Forms and Animation
 
 Name: Jordan Mor  
-Assignment Title: Angular Services Lab-Homework Part 1 (Day 19)  
-Assigned: 8/15/19 (Day 19 Bootcamp - Week 4)  
+Assignment Title: Angular Services Lab-Homework Part 1 (Day 19 & 20)  
+Assigned: 8/15/19 - 8/16/19 (Day 19 & 20 Bootcamp - Week 4)  
 [Github Repo](https://github.com/jordanmor/tts-js-assignments) 
 
 **Lab/Homework Instructions**   
@@ -22,6 +22,15 @@ Build a simple Angular app using routing, services, dependency injection, observ
       setTimeout(()=>resolve(), ms));
   }
   ```
+- In the ongoing project, create a component for entering new people. Use the template-based approach for wiring up a person model object.
+- To simulate saving simply either display an alert when the form is submitted or console.log the values.
+- Create another editing component, but use the reactive model for building the form.
+- Create a class that has several properties, then create an editing component for that class. Use the FormBuilder to shorten the creation of the form.
+- Create a button that is not part of the form. Code the button so that it will change the data in the model when pressed. With the form open, press the button to ensure that the data is refreshed on the form.
+- In the AppModule, import the BrowserAnimationsModule.
+- Create a new component simply to test the process to create animations. In the new component import the animation functions you will need (trigger, state, style, animate, transition).
+- Add the animations property in the @Component declaration, create an animation to transition between to different states on a small area of the screen, such as a small div. Control the state via a simple button.
+- Add logic to create more states via an enum - at least 3. Change the logic to switch states; create separate buttons for each state such that clicking the button will set the state property.
 ---
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.

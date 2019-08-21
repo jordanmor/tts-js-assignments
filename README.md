@@ -20,6 +20,7 @@ Lab File - [`js-lib-lab/vue.html`](/js-lib-lab/vue.html)
 
 ## TTS JavaScript Assignment - TypeScript (Angular Basics)  
 
+**Lab/Homework Instructions**  
 - Create an HTML file template and a TypeScript file. Compile the TypeScript file by to the proper folder in the command prompt and compile with the tsc command. Note the name of the produced JavaScript file. Reference the JavaScript file from the HTML page, then launch the HTML page in a browser to verify the output.
 - Create a class called `Employee`. Give it the properties of first name, last name, age, phone number, state, zip code, and occupation. Create a constructor to initialize these properties. Also create several method to return combinations of interest, such as Full name, Name and Phone Number, Location, etc.
 - Compile the file again with tsc to ensure the syntax is correct.
@@ -37,17 +38,44 @@ Lab File - [`js-lib-lab/vue.html`](/js-lib-lab/vue.html)
 ![TypeScript Assignment Screen Shot](/typescript/images/typescript-screenshot.png)  
 
 ## TTS JavaScript Assignment - Angular Labs
-### Part 1 - Angular Fundamentals
-- Build a simple Angular app using routing, services, dependency injection, observables, forms and animation  
+### Part 1 - Angular Fundamentals - Routing, Services, Dependency Injection, Observables, Forms and Animation
+
+**Lab/Homework Instructions**  
+Build a simple Angular app using routing, services, dependency injection, observables, forms and animation   
+- Create several components, modify the html templates to display something other than the default message, create a route for each new component and add a tag/link that goes to the page.
+- Create and style pages links, either as horizontal or vertical items so they resemble a menu
+- Make one of the components serve as the application default. Give it some additional "Welcome to the site" verbiage and make it the default route in the routing system.
+- Create a simple Person class in the src/app folder. Some applications would also create this in a sub-folder called "models" or "domain-classes", it's entirely up to you.
+- Generate a service class. Use the generate command option to NOT create a test file.
+  - **NOTE** - I used the command ng g s --skipTests=true
+- Display a list of people using the service class, dependency injection, and Observables.
+- Add the delay function provided below to the service class to use inside the component's getPerson() method in order to simulate the process of Observables with a long web delay
+  ```
+  async delay(ms: number) {
+    await new Promise(resolve => 
+      setTimeout(()=>resolve(), ms));
+  }
+  ```
+- In the ongoing project, create a component for entering new people. Use the template-based approach for wiring up a person model object.
+- To simulate saving simply either display an alert when the form is submitted or console.log the values.
+- Create another editing component, but use the reactive model for building the form.
+- Create a class that has several properties, then create an editing component for that class. Use the FormBuilder to shorten the creation of the form.
+- Create a button that is not part of the form. Code the button so that it will change the data in the model when pressed. With the form open, press the button to ensure that the data is refreshed on the form.
+- In the AppModule, import the BrowserAnimationsModule.
+- Create a new component simply to test the process to create animations. In the new component import the animation functions you will need (trigger, state, style, animate, transition).
+- Add the animations property in the @Component declaration, create an animation to transition between to different states on a small area of the screen, such as a small div. Control the state via a simple button.
+- Add logic to create more states via an enum - at least 3. Change the logic to switch states; create separate buttons for each state such that clicking the button will set the state property.
 
 **Assignment folder**  
 [`angular/angular-lab`](/angular/angular-lab)  
 
 ### Part 2 - Angular Tour of Heroes  
+
+**Lab/Homework Instructions**  
 - Go to the Angular.io site and work through the Angular Tour of Heroes app. Be sure to do the CLI-based version of the tutorial.
 - Learn to set up a local development environment, use the Angular CLI tool, create Angular components, display and hide elements and lists, use one-way data binding for read-only data, add editable fields to update a model with two-way data binding, bind component methods to user events, format data with pipes, create and use shared services, use routing to navigate among different views and their components and add data persistence features with help from Angular's HttpClient.   
 
-**Submitted folder**   
+**Assignment folder**   
 [`angular/angular-tour-of-heroes`](/angular/angular-tour-of-heroes) 
 
 ### Part 3 - Angular Testing  
@@ -63,6 +91,7 @@ Lab File - [`js-lib-lab/vue.html`](/js-lib-lab/vue.html)
 
 ## TTS JavaScript Assignment - Bootstrap & jQuery
 
+**Lab/Homework Instructions**  
 - Look at the list of components on the Bootstrap documentation, pick out a few of the components and code some simple sections
 - Using div sections, create several message areas that have different background colors. Reference the bg- series of classes
 - Use `<p>` tags and the text- classes to create several areas of colored text
@@ -83,6 +112,8 @@ Lab File - [`js-lib-lab/vue.html`](/js-lib-lab/vue.html)
 ![Grid X Screen Shot](/bootstrap-jquery/grid-x-screenshot.png)  
 
 ## TTS JavaScript Assignment - Slideshow
+
+**Lab/Homework Instructions**  
 - Create a single object named slideshow that represents the data and functionality of a picture slideshow. There should be NO VARIABLES OUTSIDE THE OBJECT. The object should have properties for:
     - An array called photoList that contains the names of the photos as strings
     - An integer currentPhotoIndex that represents which photo in the photoList is currently displayed
@@ -101,6 +132,7 @@ Lab File - [`js-lib-lab/vue.html`](/js-lib-lab/vue.html)
 
 ## TTS JavaScript Assignment - Rock, Paper, Scissors Game
 
+**Instructions**  
 1. Define a hands array with the values 'rock', 'paper', and 'scissors';
 2. Define a function called getHand() that returns a hand from the array using parseInt(Math.random()*10)%3)
 3. Define two objects for two players. Each player has name and getHand() properties.
@@ -128,6 +160,7 @@ Lab File - [`js-lib-lab/vue.html`](/js-lib-lab/vue.html)
 
 ## TTS JavaScript Assignment 1
 
+**Instructions**  
 1. Create a game of 'Rock Paper Scissors' that runs until one player has three wins.  
 2. Store the player names and number of wins for each player in variables.  
 3. Use a while loop to run the game until one player has 3 wins.  
@@ -166,6 +199,7 @@ Exercise 3
 
 ## TTS JavaScript Assignment 3
 
+**Instructions**
 - Create an outer function with an inner function. Call the outer function.
 - Declare two variables, a and b in the outer function's scope and set them to a string and an object respectively. Log their values immediately.
 - Log the values of a and b in the inner function.
