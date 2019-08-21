@@ -1,4 +1,4 @@
-import { ShoppingItem } from './models/shopping-item';
+import { ShoppingItem } from '../models/ShoppingItems';
 
 export const SHOPPING_ITEMS: ShoppingItem[] = [
   {id: 1, name: 'Lamp'},

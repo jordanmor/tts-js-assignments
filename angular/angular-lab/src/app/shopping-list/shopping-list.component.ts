@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ShoppingItem } from '../models/shopping-item';
-import { SHOPPING_ITEMS } from '../shopping-items';
+import { ShoppingItem } from '../models/ShoppingItems';
+import { SHOPPING_ITEMS } from '../data/shopping-items';
 
 @Component({
   selector: 'app-shopping-list',

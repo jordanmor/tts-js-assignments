@@ -1,0 +1,8 @@
+<p><em>Friends list loaded with a 3 second delay to simulate a long-running call to get data</em></p>
+<h2>Coding Friends</h2>
+<ul *ngIf="friends">
+  <li *ngFor="let friend of friends">
+    <span>{{ friend.id }}</span> 
+    {{ friend.firstName }} {{ friend.lastName }}
+  </li>
+</ul>
