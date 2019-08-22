@@ -128,7 +128,10 @@ Todo list was made mobile ready and responsive.
 Todos are editable  
 Todo list is scrollable  
 Custom-styled checkbox used for checking off a todo item  
-When checked, the todo text is crossed out and selected todo is removed after 1 second 
+When checked, the todo text is crossed out and selected todo is removed after 1 second
+
+**Assignment folder**  
+[`todo-app`](/todo-app) 
 
 **Screenshot of my completed Todo app**  
 

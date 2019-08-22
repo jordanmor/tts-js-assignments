@@ -2,11 +2,11 @@
 
 Name: Jordan Mor  
 Assignment Title: TODO App - Homework (Day 14)  
-Assigned: 8/14/19 (Day 14 Bootcamp - Week 3)  
+Assigned: 8/8/19 (Day 14 Bootcamp - Week 3)  
 
 **Homework Instructions**  
 Create a simple todo application
-- Show an unordered list of todo's
+- Show an unordered list of todos
 - Show an input to enter a new todo
 - Show a button to add a todo. When the button is clicked:
   - The text from the input box is used to add a list item to the bottom of the list
