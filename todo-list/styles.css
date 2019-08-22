@@ -1,0 +1,153 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgba(50,50,50,0.2);
+}
+
+main {
+  margin-top: 4rem;
+  color: #333;
+}
+
+h1 {
+  font-family: 'Lexend Deca', sans-serif;
+  color: #555;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+label {
+  padding: 0;
+  margin: 0;
+}
+
+button,
+button:focus,
+input,
+input:focus {
+  outline: none;
+}
+
+/* ----- TODO ----- */
+
+.todo {
+  height: 35rem;
+  max-width: 25rem;
+  padding: 1rem;
+  margin: 0 auto;
+  border: 1px solid rgba(30,30,30,0.4);
+  border-radius: 4px;
+  background-color: #fdfdfd;
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+/* Hide scrollbar */
+.todo::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.todo li {
+  border-radius: 2px;
+}
+
+.todo li,
+.todo input[type=text],
+.todo form button {
+  border: 1px solid rgba(30,30,30,0.4);
+}
+
+.todo form {
+  display: flex;
+  margin-bottom: .35rem;
+}
+
+.todo form button {
+  width: 2.5rem;
+  border-radius: 2px 0 0 2px;
+  border-right: none;
+  font-size: 1.4rem;
+  color: #555;
+}
+
+.todo input[type=text] {
+  width: 100%;
+  padding: .5rem;
+  color: #444;
+  font-size: 1.075rem;
+  background-color: rgba(50,50,50,0.1);
+  border-radius: 2px;
+  border-radius: 0 2px 2px 0;
+}
+
+.todo li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  padding: .45rem;
+  margin-bottom: .1rem;
+}
+
+.todo li > span {
+  font-size: 1.1rem;
+}
+
+/* ----- CHECKBOX STYLES ----- */
+
+/* Hide the default checkbox */
+.checkbox-label {
+  margin: 0 .5rem 0 0;
+  padding: 0;
+}
+
+.checkbox-label,
+.checkbox-label span {
+  height: 18px;
+}
+
+.checkbox-label input {
+  display: none;
+}
+
+/* Style the artificial checkbox */
+.checkbox-label span {
+  display: inline-block;
+  position: relative;
+  width: 18px;
+  border: 1px solid grey;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+/* Style its checked state...with a ticked icon */
+.checkbox-label [type=checkbox]:checked + span:before {
+  content: '\2714';
+  position: absolute;
+  font-size: .95rem;
+  top: -5px;
+  left: 0;
+}
+
+/* ----- MEDIA QUERIES ----- */
+
+@media screen and (max-width: 500px) {
+  main {
+    margin-top: 1rem;
+  }
+  .todo li > span {
+    font-size: 1rem;
+  }
+}

@@ -111,6 +111,29 @@ Build a simple Angular app using routing, services, dependency injection, observ
 
 ![Grid X Screen Shot](/bootstrap-jquery/grid-x-screenshot.png)  
 
+## TTS JavaScript Assignment - TODO App
+
+**Homework Instructions**  
+Create a simple todo application
+- Show an unordered list of todo's
+- Show an input to enter a new todo
+- Show a button to add a todo. When the button is clicked:
+  - The text from the input box is used to add a list item to the bottom of the list
+  - The text from the input box is cleared out.
+- When the user clicks on a list item, it is removed
+- Extra Credit: - When a list item is clicked, cross it out, then remove it after 1 second.
+
+**Notes**   
+Todo list was made mobile ready and responsive.  
+Todos are editable  
+Todo list is scrollable  
+Custom-styled checkbox used for checking off a todo item  
+When checked, the todo text is crossed out and selected todo is removed after 1 second 
+
+**Screenshot of my completed Todo app**  
+
+![TODO App Screen Shot](todo-list/todo-app-screenshot.png)
+
 ## TTS JavaScript Assignment - Slideshow
 
 **Lab/Homework Instructions**  
