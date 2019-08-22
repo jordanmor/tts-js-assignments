@@ -15,9 +15,9 @@ Create a simple todo application
 - Extra Credit: - When a list item is clicked, cross it out, then remove it after 1 second.
 
 **Notes**   
-Todo list was made mobile ready and responsive.  
+Todo app was made mobile ready and responsive.  
 Todos are editable  
-Todo list is scrollable  
+Todo app is scrollable  
 Custom-styled checkbox used for checking off a todo item  
 When checked, the todo text is crossed out and selected todo is removed after 1 second 
 

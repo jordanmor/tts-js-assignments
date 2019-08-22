@@ -132,7 +132,7 @@ When checked, the todo text is crossed out and selected todo is removed after 1 
 
 **Screenshot of my completed Todo app**  
 
-![TODO App Screen Shot](todo-list/todo-app-screenshot.png)
+![TODO App Screen Shot](todo-app/todo-app-screenshot.png)
 
 ## TTS JavaScript Assignment - Slideshow
 
