@@ -3,20 +3,20 @@
 ## TTS JavaScript Assignment - JavaScript Libraries
 
 - **Completed Lodash Exercises**  
-Lab File - [`js-lib-lab/lodash-lab.js`](/js-lib-lab/lodash-lab.js)  
+Lab File - [`js-lib-lab/lodash-lab.js`](js-lib-lab/lodash-lab.js)  
 - **Completed Moment Exercises**  
-Lab File - [`js-lib-lab/moment-lab.js`](/js-lib-lab/moment-lab.js)  
+Lab File - [`js-lib-lab/moment-lab.js`](js-lib-lab/moment-lab.js)  
 - **Completed mathjs Exercises**  
-Lab File - [`js-lib-lab/mathjs-lab.js`](/js-lib-lab/mathjs-lab.js)  
+Lab File - [`js-lib-lab/mathjs-lab.js`](js-lib-lab/mathjs-lab.js)  
 - **Completed DataTable Lab**  
-Lab Folder - [`js-lib-lab/data-table-lab`](/js-lib-lab/data-table-lab)  
+Lab Folder - [`js-lib-lab/data-table-lab`](js-lib-lab/data-table-lab)  
 - **Completed Chart.js Lab**  
-Lab File - [`js-lib-lab/chart.html`](/js-lib-lab/chart.html)  
+Lab File - [`js-lib-lab/chart.html`](js-lib-lab/chart.html)  
 - **Completed React Lab**  
-Lab File - [`js-lib-lab/react.html`](/js-lib-lab/react.html)  
+Lab File - [`js-lib-lab/react.html`](js-lib-lab/react.html)  
 - **Completed Vue Lab**  
 As instructed, completed following Vue's tutorial video ["An Introduction to Vue"](https://player.vimeo.com/video/247494684)  
-Lab File - [`js-lib-lab/vue.html`](/js-lib-lab/vue.html)  
+Lab File - [`js-lib-lab/vue.html`](js-lib-lab/vue.html)  
 
 ## TTS JavaScript Assignment - TypeScript (Angular Basics)  
 
@@ -31,11 +31,11 @@ Lab File - [`js-lib-lab/vue.html`](/js-lib-lab/vue.html)
 - Examine the compiled JavaScript file to see how the tsc changes TypeScript into JavaScript.
 
 **Assignment folder**  
-[`typescript`](/typescript)  
+[`typescript`](typescript)  
 
 **Screenshot of my completed TypeScript assignment**  
 
-![TypeScript Assignment Screen Shot](/typescript/images/typescript-screenshot.png)  
+![TypeScript Assignment Screen Shot](typescript/images/typescript-screenshot.png)  
 
 ## TTS JavaScript Assignment - Angular Labs
 ### Part 1 - Angular Fundamentals - Routing, Services, Dependency Injection, Observables, Forms and Animation
@@ -67,7 +67,7 @@ Build a simple Angular app using routing, services, dependency injection, observ
 - Add logic to create more states via an enum - at least 3. Change the logic to switch states; create separate buttons for each state such that clicking the button will set the state property.
 
 **Assignment folder**  
-[`angular/angular-lab`](/angular/angular-lab)  
+[`angular/angular-lab`](angular/angular-lab)  
 
 ### Part 2 - Angular Tour of Heroes  
 
@@ -76,18 +76,18 @@ Build a simple Angular app using routing, services, dependency injection, observ
 - Learn to set up a local development environment, use the Angular CLI tool, create Angular components, display and hide elements and lists, use one-way data binding for read-only data, add editable fields to update a model with two-way data binding, bind component methods to user events, format data with pipes, create and use shared services, use routing to navigate among different views and their components and add data persistence features with help from Angular's HttpClient.   
 
 **Assignment folder**   
-[`angular/angular-tour-of-heroes`](/angular/angular-tour-of-heroes) 
+[`angular/angular-tour-of-heroes`](angular/angular-tour-of-heroes) 
 
 ### Part 3 - Angular Testing  
 
 **Assignment folder**  
-[`angular/angular-testing`](/angular/angular-testing)   
+[`angular/angular-testing`](angular/angular-testing)   
 
 ### Part 4 - Material and PrimeNG  
 
 **Assignment folder**  
-[`angular/mat-test`](/angular/mat-test)  
-[`angular/prime-test`](/angular/prime-test)  
+[`angular/mat-test`](angular/mat-test)  
+[`angular/prime-test`](angular/prime-test)  
 
 ## TTS JavaScript Assignment - Bootstrap & jQuery
 
@@ -105,11 +105,11 @@ Build a simple Angular app using routing, services, dependency injection, observ
 - Create a button on the page for changing colors. Code several iterations of the button and alter the color of the some of the sections you created earlier by adding or removing classes.
 
 **Assignment folder**  
-[`bootstrap-jquery`](/bootstrap-jquery)  
+[`bootstrap-jquery`](bootstrap-jquery)  
 
 **Screenshot of Grid X, created using Bootstrap as part of the Bootstrap & jQuery assignment**  
 
-![Grid X Screen Shot](/bootstrap-jquery/grid-x-screenshot.png)  
+![Grid X Screen Shot](bootstrap-jquery/grid-x-screenshot.png)  
 
 ## TTS JavaScript Assignment - TODO App
 
@@ -131,7 +131,7 @@ Custom-styled checkbox used for checking off a todo item
 When checked, the todo text is crossed out and selected todo is removed after 1 second
 
 **Assignment folder**  
-[`todo-app`](/todo-app) 
+[`todo-app`](todo-app) 
 
 **Screenshot of my completed Todo app**  
 
@@ -152,7 +152,7 @@ When checked, the todo text is crossed out and selected todo is removed after 1 
 - I created a basic html page to display the slideshow functionality
 
 **Assignment folder**  
-[`slideshow`](/slideshow) 
+[`slideshow`](slideshow) 
 
 # Tech Talent South
 
@@ -182,7 +182,7 @@ When checked, the todo text is crossed out and selected todo is removed after 1 
 - Announce the tournament winner's name "\[name] is the world champion"; 
 
 **Assignment file**  
-[`tech-talent-south/rock-paper-scissors.js`](/tech-talent-south/rock-paper-scissors.js) 
+[`tech-talent-south/rock-paper-scissors.js`](tech-talent-south/rock-paper-scissors.js) 
 
 ## TTS JavaScript Assignment 1
 
@@ -199,8 +199,8 @@ When checked, the todo text is crossed out and selected todo is removed after 1 
     - Push the code to your GitHub Repo
 
 **Assignment files**  
-[`tech-talent-south/assignment01_a.js`](/tech-talent-south/assignment01_a.js) - assignment completed using functions  
-[`tech-talent-south/assignment01_b.js`](/tech-talent-south/assignment01_b.js) - At teacher's request, assignment was also completed without using functions or classes
+[`tech-talent-south/assignment01_a.js`](tech-talent-south/assignment01_a.js) - assignment completed using functions  
+[`tech-talent-south/assignment01_b.js`](tech-talent-south/assignment01_b.js) - At teacher's request, assignment was also completed without using functions or classes
 
 ## TTS JavaScript Assignment 2
 
@@ -219,9 +219,9 @@ Exercise 3
 - Push the completed code to our GitHub channel.
 
 **Assignment files**  
-[`tech-talent-south/assignment02_1.js`](/tech-talent-south/assignment02_1.js)    
-[`tech-talent-south/assignment02_2.js`](/tech-talent-south/assignment02_2.js)  
-[`tech-talent-south/assignment02_3.js`](/tech-talent-south/assignment02_3.js)  
+[`tech-talent-south/assignment02_1.js`](tech-talent-south/assignment02_1.js)    
+[`tech-talent-south/assignment02_2.js`](tech-talent-south/assignment02_2.js)  
+[`tech-talent-south/assignment02_3.js`](tech-talent-south/assignment02_3.js)  
 
 ## TTS JavaScript Assignment 3
 
@@ -235,7 +235,7 @@ Exercise 3
 - Inside the inner function, update a property of the b object.
 
 **Assignment file**  
-[`tech-talent-south/assignment03.js`](/tech-talent-south/assignment03.js)  
+[`tech-talent-south/assignment03.js`](tech-talent-south/assignment03.js)  
 
 ## TTS JavaScript Assignment 4
 
@@ -277,6 +277,6 @@ Exercise 3
     4. Automatically pause the slideshow if it gets to the end of the photolist while playing.
 
 **Assignment files**  
-[`tech-talent-south/assignment04_1.js`](/tech-talent-south/assignment04_1.js)  
-[`tech-talent-south/assignment04_2.js`](/tech-talent-south/assignment04_2.js)  
-[`tech-talent-south/assignment04_3.js`](/tech-talent-south/assignment04_3.js)
+[`tech-talent-south/assignment04_1.js`](tech-talent-south/assignment04_1.js)  
+[`tech-talent-south/assignment04_2.js`](tech-talent-south/assignment04_2.js)  
+[`tech-talent-south/assignment04_3.js`](tech-talent-south/assignment04_3.js)

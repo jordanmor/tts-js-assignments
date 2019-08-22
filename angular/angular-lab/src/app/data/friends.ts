@@ -6,5 +6,5 @@ export const FRIENDS: Person[] = [
   {id: 3, firstName: 'Flex', lastName: 'Box'},
   {id: 4, firstName: 'Spring', lastName: 'Boot'},
   {id: 5, firstName: 'Dev', lastName: 'Tools'},
-  {id: 6, firstName: 'Boot', lastName: 'Strap'},
+  {id: 6, firstName: 'Jay', lastName: 'Query'},
 ];
