@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,7 +11,8 @@ import { HomeComponent } from './home/home.component';
 import { MoviesComponent } from './movies/movies.component';
 import { FriendsComponent } from './friends/friends.component';
 import { PersonEditorTemplateComponent } from './person-editor-template/person-editor-template.component';
-import { CompanyEditorReactiveComponent } from './company-editor-reactive/company-editor-reactive.component';
+import { AnimationsComponent } from './animations/animations.component';
+import { ProfileEditorReactiveComponent } from './profile-editor-reactive/profile-editor-reactive.component';
 
 @NgModule({
   declarations: [
@@ -21,13 +23,15 @@ import { CompanyEditorReactiveComponent } from './company-editor-reactive/compan
     MoviesComponent,
     FriendsComponent,
     PersonEditorTemplateComponent,
-    CompanyEditorReactiveComponent
+    AnimationsComponent,
+    ProfileEditorReactiveComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

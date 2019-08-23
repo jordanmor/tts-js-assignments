@@ -4,12 +4,12 @@ import { ShoppingListComponent} from './shopping-list/shopping-list.component';
 import { HomeComponent } from './home/home.component';
 import { MoviesComponent } from './movies/movies.component';
 import { FriendsComponent } from './friends/friends.component';
-import { CompanyEditorReactiveComponent } from './company-editor-reactive/company-editor-reactive.component';
+import { ProfileEditorReactiveComponent } from './profile-editor-reactive/profile-editor-reactive.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
   { path: 'friends', component: FriendsComponent },
-  { path: 'profile', component: CompanyEditorReactiveComponent },
+  { path: 'profile', component: ProfileEditorReactiveComponent },
   { path: 'movies', component: MoviesComponent },
   { path: 'shopping-list', component: ShoppingListComponent },
 ];

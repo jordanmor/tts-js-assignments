@@ -3,11 +3,11 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 import { Profile } from '../models/Profile';
 
 @Component({
-  selector: 'app-company-editor-reactive',
-  templateUrl: './company-editor-reactive.component.html',
-  styleUrls: ['./company-editor-reactive.component.css']
+  selector: 'app-profile-editor-reactive',
+  templateUrl: './profile-editor-reactive.component.html',
+  styleUrls: ['./profile-editor-reactive.component.css']
 })
-export class CompanyEditorReactiveComponent {
+export class ProfileEditorReactiveComponent {
 
   profileForm: FormGroup = this.builder.group({
     firstName: ['Gerard'],
