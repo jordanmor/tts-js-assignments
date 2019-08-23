@@ -69,6 +69,11 @@ Build a simple Angular app using routing, services, dependency injection, observ
 **Assignment folder**  
 [`angular/angular-lab`](angular/angular-lab)  
 
+**Screenshot from my completed Angular Lab assignment**  
+<em>Friends list displayed using a service class, dependency injection, observables and a delay function that simulates a long-running call to get data from a server. A template-based form is used to add a new person to the list of coding friends when the form is submitted.</em>  
+
+![Angular Lab Screen Shot](angular/angular-lab/angular-lab-screenshot.png) 
+
 ### Part 2 - Angular Tour of Heroes  
 
 **Lab/Homework Instructions**  

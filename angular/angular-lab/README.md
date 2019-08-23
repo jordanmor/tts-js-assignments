@@ -31,6 +31,12 @@ Build a simple Angular app using routing, services, dependency injection, observ
 - Create a new component simply to test the process to create animations. In the new component import the animation functions you will need (trigger, state, style, animate, transition).
 - Add the animations property in the @Component declaration, create an animation to transition between to different states on a small area of the screen, such as a small div. Control the state via a simple button.
 - Add logic to create more states via an enum - at least 3. Change the logic to switch states; create separate buttons for each state such that clicking the button will set the state property.
+
+**Screenshot from my completed Angular Lab assignment**  
+<em>Friends list displayed using a service class, dependency injection, observables and a delay function that simulates a long-running call to get data from a server. A template-based form is used to add a new person to the list of coding friends when the form is submitted.</em>  
+
+![Angular Lab Screen Shot](angular-lab-screenshot.png)  
+
 ---
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
