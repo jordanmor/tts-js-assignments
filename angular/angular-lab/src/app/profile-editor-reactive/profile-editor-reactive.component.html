@@ -1,6 +1,10 @@
 <div class="container">
-    <h3>Your Profile</h3>
-    <form [formGroup]="profileForm" (ngSubmit)="onSubmit()" class="mb-4">
+    <div class="jumbotron text-center">
+      <h1 class="mb-4">Your Profile</h1>
+      <p><em>Updated profile model data is sent in JSON format to mock server to update db (aka. console.log())</em></p>
+    </div>
+    <div class="profile">
+      <form [formGroup]="profileForm" (ngSubmit)="onSubmit()" class="mb-4">
         <div class="form-group">
           <label for="firstName">First Name</label>
           <input type="text" formControlName="firstName" class="form-control" id="firstName" required>
@@ -27,7 +31,8 @@
         </div>
       </form>
   
-      <div>
+      <div class="update">
         <button type="button" class="btn btn-outline-primary" (click)="updateProfile()">Update Your Profile</button>
       </div>
+    </div>
   </div>
