@@ -83,17 +83,6 @@ Build a simple Angular app using routing, services, dependency injection, observ
 **Assignment folder**   
 [`angular/angular-tour-of-heroes`](angular/angular-tour-of-heroes) 
 
-### Part 3 - Angular Testing  
-
-**Assignment folder**  
-[`angular/angular-testing`](angular/angular-testing)   
-
-### Part 4 - Material and PrimeNG  
-
-**Assignment folder**  
-[`angular/mat-test`](angular/mat-test)  
-[`angular/prime-test`](angular/prime-test)  
-
 ## TTS JavaScript Assignment - Bootstrap & jQuery
 
 **Lab/Homework Instructions**  
