@@ -1,5 +1,13 @@
 # Tech Talent Select
 
+## Table of Contents - JavaScript Assignments
+- [JavaScript Libraries Assignment](#tts-javascript-assignment---javascript-libraries)
+- [TypeScript (Angular Basics) Assignment](#tts-javascript-assignment---typescript-angular-basics--live-demo)
+- [Angular Labs Assignment Part 1](#tts-javascript-assignment---angular-labs--live-demo)
+- [Angular Labs Assignment Part 2 - Angular Tour of Heroes](#part-2---angular-tour-of-heroes)
+- [Bootstrap & jQuery Assignment](#tts-javascript-assignment---bootstrap--jquery--live-demo)
+- [TODO App Assignment](#tts-javascript-assignment---todo-app--live-demo)
+
 ## TTS JavaScript Assignment - JavaScript Libraries
 
 - **Completed Lodash Exercises**   
