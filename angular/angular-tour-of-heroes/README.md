@@ -1,4 +1,4 @@
-## TTS Assignment - Angular Services | [Live Demo](https://jordanmor.github.io/tts-js-assignments/angular/angular-tour-of-heroes)
+## TTS Assignment - Angular Services  
 ### Part 2 - Angular Tour of Heroes
 
 Name: Jordan Mor  

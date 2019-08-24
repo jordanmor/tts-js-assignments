@@ -61,8 +61,8 @@ Lab File - [`js-lib-lab/vue.html`](js-lib-lab/vue.html)
 
 ![TypeScript Assignment Screen Shot](typescript/images/typescript-screenshot.png)  
 
-## TTS JavaScript Assignment - Angular Labs
-### Part 1 - Angular Fundamentals - Routing, Services, Dependency Injection, Observables, Forms and Animation | [Live Demo](https://jordanmor.github.io/tts-js-assignments/angular/angular-lab)
+## TTS JavaScript Assignment - Angular Labs | [Live Demo](https://jordanmor.github.io/angular-lab-demo/)
+### Part 1 - Angular Fundamentals - Routing, Services, Dependency Injection, Observables, Forms and Animation
 
 **Lab/Homework Instructions**  
 Build a simple Angular app using routing, services, dependency injection, observables, forms and animation   
@@ -98,7 +98,7 @@ Build a simple Angular app using routing, services, dependency injection, observ
 
 ![Angular Lab Screen Shot](angular/angular-lab/angular-lab-screenshot.png) 
 
-### Part 2 - Angular Tour of Heroes | [Live Demo](https://jordanmor.github.io/tts-js-assignments/angular/angular-tour-of-heroes)
+### Part 2 - Angular Tour of Heroes  
 
 **Lab/Homework Instructions**  
 - Go to the Angular.io site and work through the Angular Tour of Heroes app. Be sure to do the CLI-based version of the tutorial.
