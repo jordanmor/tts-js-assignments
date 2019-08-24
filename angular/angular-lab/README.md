@@ -1,4 +1,4 @@
-## TTS Assignment - Angular Lab 
+## TTS Assignment - Angular Lab | [Live Demo](https://jordanmor.github.io/tts-js-assignments/angular/angular-lab)
 ### Part 1 - Angular Fundamentals - Routing, Services, Dependency Injection, Observables, Forms and Animation
 
 Name: Jordan Mor  

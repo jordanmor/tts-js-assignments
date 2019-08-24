@@ -1,4 +1,4 @@
-## TTS Assignment - TypeScript (Angular Basics)
+## TTS Assignment - TypeScript (Angular Basics) | [Live Demo](https://jordanmor.github.io/tts-js-assignments/typescript/)
 
 Name: Jordan Mor  
 Assignment Title: Angular Basics Lab-Homework (Day 18)  

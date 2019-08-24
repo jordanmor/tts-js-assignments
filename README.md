@@ -2,8 +2,32 @@
 
 ## TTS JavaScript Assignment - JavaScript Libraries
 
-- **Completed Lodash Exercises**  
-Lab File - [`js-lib-lab/lodash-lab.js`](js-lib-lab/lodash-lab.js)  
+- **Completed Lodash Exercises**   
+    An example of one of my code solutions to a Lodash exercise:   
+    ```
+    /**
+     * Instructions:
+     * Using the documentation for the _.countBy() function
+     * create statements that print out the number of residents in each state.
+     */
+
+    // My solution:
+    const printNumOfResidentsPerState = () => _
+        .chain(residents)
+        .countBy(resident => resident.state)
+        .forEach((value, key) => console.log(`There are ${value} residents living in ${key}.`))
+        .value();
+
+    printNumOfResidentsPerState();
+    /* Output:
+    There are 3 residents living in TX.
+    There are 3 residents living in FL.
+    There are 3 residents living in CO.
+    There are 2 residents living in KS.
+    There are 4 residents living in NC.
+    */
+    ``` 
+    Lab File - [`js-lib-lab/lodash-lab.js`](js-lib-lab/lodash-lab.js)  
 - **Completed Moment Exercises**  
 Lab File - [`js-lib-lab/moment-lab.js`](js-lib-lab/moment-lab.js)  
 - **Completed mathjs Exercises**  
@@ -18,7 +42,7 @@ Lab File - [`js-lib-lab/react.html`](js-lib-lab/react.html)
 As instructed, completed following Vue's tutorial video ["An Introduction to Vue"](https://player.vimeo.com/video/247494684)  
 Lab File - [`js-lib-lab/vue.html`](js-lib-lab/vue.html)  
 
-## TTS JavaScript Assignment - TypeScript (Angular Basics)  
+## TTS JavaScript Assignment - TypeScript (Angular Basics) | [Live Demo](https://jordanmor.github.io/tts-js-assignments/typescript/)
 
 **Lab/Homework Instructions**  
 - Create an HTML file template and a TypeScript file. Compile the TypeScript file by to the proper folder in the command prompt and compile with the tsc command. Note the name of the produced JavaScript file. Reference the JavaScript file from the HTML page, then launch the HTML page in a browser to verify the output.
@@ -38,7 +62,7 @@ Lab File - [`js-lib-lab/vue.html`](js-lib-lab/vue.html)
 ![TypeScript Assignment Screen Shot](typescript/images/typescript-screenshot.png)  
 
 ## TTS JavaScript Assignment - Angular Labs
-### Part 1 - Angular Fundamentals - Routing, Services, Dependency Injection, Observables, Forms and Animation
+### Part 1 - Angular Fundamentals - Routing, Services, Dependency Injection, Observables, Forms and Animation | [Live Demo](https://jordanmor.github.io/tts-js-assignments/angular/angular-lab)
 
 **Lab/Homework Instructions**  
 Build a simple Angular app using routing, services, dependency injection, observables, forms and animation   
@@ -74,7 +98,7 @@ Build a simple Angular app using routing, services, dependency injection, observ
 
 ![Angular Lab Screen Shot](angular/angular-lab/angular-lab-screenshot.png) 
 
-### Part 2 - Angular Tour of Heroes  
+### Part 2 - Angular Tour of Heroes | [Live Demo](https://jordanmor.github.io/tts-js-assignments/angular/angular-tour-of-heroes)
 
 **Lab/Homework Instructions**  
 - Go to the Angular.io site and work through the Angular Tour of Heroes app. Be sure to do the CLI-based version of the tutorial.
@@ -83,7 +107,7 @@ Build a simple Angular app using routing, services, dependency injection, observ
 **Assignment folder**   
 [`angular/angular-tour-of-heroes`](angular/angular-tour-of-heroes) 
 
-## TTS JavaScript Assignment - Bootstrap & jQuery
+## TTS JavaScript Assignment - Bootstrap & jQuery | [Live Demo](https://jordanmor.github.io/tts-js-assignments/bootstrap-jquery/)
 
 **Lab/Homework Instructions**  
 - Look at the list of components on the Bootstrap documentation, pick out a few of the components and code some simple sections
@@ -105,7 +129,7 @@ Build a simple Angular app using routing, services, dependency injection, observ
 
 ![Grid X Screen Shot](bootstrap-jquery/grid-x-screenshot.png)  
 
-## TTS JavaScript Assignment - TODO App
+## TTS JavaScript Assignment - TODO App | [Live Demo](https://jordanmor.github.io/tts-js-assignments/todo-app/)
 
 **Homework Instructions**  
 Create a simple todo application
@@ -131,7 +155,7 @@ When checked, the todo text is crossed out and selected todo is removed after 1 
 
 ![TODO App Screen Shot](todo-app/todo-app-screenshot.png)
 
-## TTS JavaScript Assignment - Slideshow
+## TTS JavaScript Assignment - Slideshow | [Live Demo](https://jordanmor.github.io/tts-js-assignments/slideshow/)
 
 **Lab/Homework Instructions**  
 - Create a single object named slideshow that represents the data and functionality of a picture slideshow. There should be NO VARIABLES OUTSIDE THE OBJECT. The object should have properties for:
@@ -144,6 +168,24 @@ When checked, the todo text is crossed out and selected todo is removed after 1 
 **My Assignment Notes**  
 - I used a closure, short-circuiting and arrow functions for the slideshow logic
 - I created a basic html page to display the slideshow functionality
+- Refactored project logic:  
+    ```
+    const slideshow = () => {
+        const photoList = [
+            'https://place-hold.it/300/4287f5/fff/000.jpg?text=Picture%201', 
+            'https://place-hold.it/300/4ef542/fff/000.jpg?text=Picture%202', 
+            'https://place-hold.it/300/ed9c2b/fff/000.jpg?text=Picture%203', 
+            'https://place-hold.it/300/9f18de/fff/000.jpg?text=Picture%204'
+        ];
+        let currentPhotoIndex = 0;
+
+        return {
+            nextPhoto: () => currentPhotoIndex < photoList.length - 1 && currentPhotoIndex++,
+            prevPhoto: () => currentPhotoIndex > 0 && currentPhotoIndex--,
+            getCurrentPhoto: () => photoList[currentPhotoIndex]
+        }
+    }
+    ```
 
 **Assignment folder**  
 [`slideshow`](slideshow) 

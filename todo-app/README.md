@@ -1,4 +1,4 @@
-## TTS JavaScript Assignment - TODO App
+## TTS JavaScript Assignment - TODO App | [Live Demo](https://jordanmor.github.io/tts-js-assignments/todo-app/)
 
 Name: Jordan Mor  
 Assignment Title: TODO App - Homework (Day 14)  
