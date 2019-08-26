@@ -1,9 +1,9 @@
 # Tech Talent Select
 
-## Table of Contents - JavaScript Assignments
+## Table of Contents
 - [JavaScript Libraries Assignment](#tts-javascript-assignment---javascript-libraries)
 - [TypeScript (Angular Basics) Assignment](#tts-javascript-assignment---typescript-angular-basics--live-demo)
-- [Angular Labs Assignment Part 1](#tts-javascript-assignment---angular-labs--live-demo)
+- [Angular Labs Assignment Part 1](#tts-javascript-assignment---angular-labs)
 - [Angular Labs Assignment Part 2 - Angular Tour of Heroes](#part-2---angular-tour-of-heroes)
 - [Bootstrap & jQuery Assignment](#tts-javascript-assignment---bootstrap--jquery--live-demo)
 - [TODO App Assignment](#tts-javascript-assignment---todo-app--live-demo)
@@ -69,8 +69,9 @@ Lab File - [`js-lib-lab/vue.html`](js-lib-lab/vue.html)
 
 ![TypeScript Assignment Screen Shot](typescript/images/typescript-screenshot.png)  
 
-## TTS JavaScript Assignment - Angular Labs | [Live Demo](https://jordanmor.github.io/angular-lab-demo/)
+## TTS JavaScript Assignment - Angular Labs
 ### Part 1 - Angular Fundamentals - Routing, Services, Dependency Injection, Observables, Forms and Animation
+#### **IMPORTANT PROJECT NOTE**: This Lab has been cloned and further developed in a separate repo for easier demonstration purposes. For a live demo of the updated project, please go to [tts-angular-project](https://jordanmor.github.io/tts-angular-project/)
 
 **Lab/Homework Instructions**  
 Build a simple Angular app using routing, services, dependency injection, observables, forms and animation   
